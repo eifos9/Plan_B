@@ -1,11 +1,16 @@
-.logo {
-    width: 65px;
-    height: 37px;
-    
+/* --- CSS Reset --- */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
-.logo2 {
-    width: 65px;
-    height: 37px;
+header {
+    background-color: #2E0707;
+}
+
+.logo {
+    width: 20%;
     
 }
