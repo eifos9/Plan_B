@@ -45,11 +45,11 @@ header {
 
 #dropdown_booking, #dropdown_events, #dropdown_menu, #dropdown_gavekort {
     text-align: center;
-    background-color: #590F0F;
+    background-color: #F0E7D0;
 }
 
 #dropdown_booking a, #dropdown_events a, #dropdown_menu a, #dropdown_gavekort a {
-    color: #F0E7D0;
+    color: #2E0707;
     font-family: Montserrat, sans-serif;
     font-size: 12pt;
     padding: 5%;

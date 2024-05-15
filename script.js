@@ -19,7 +19,6 @@ const dropdown_booking = document.getElementById("dropdown_booking");
 const dropdown_events = document.getElementById("dropdown_events");
 const dropdown_menu = document.getElementById("dropdown_menu");
 const dropdown_gavekort = document.getElementById("dropdown_gavekort");
-//const dropdownIndhold = document.querySelectorAll(".dropdown_indhold a");
 
 let viserDropdownIndhold = false;
 
@@ -75,15 +74,3 @@ function visDropdownGavekort() {
         viserDropdownIndhold = false;
     }
 }
-
-/*
-function visDropdownIndhold() {
-    if (!viserDropdownIndhold == false) {
-        dropdown_booking.style.display = "block";
-        viserDropdownIndhold = true;
-    } else {
-        dropdown_booking.style.display = "none";
-        viserDropdownIndhold = false;
-    }
-}
-*/
