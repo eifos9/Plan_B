@@ -12,8 +12,6 @@ body {
     font-family: Montserrat, sans-serif;
     font-weight: 200;
     line-height: 150%;
-    background-image: url(img/flaskertop_mobil.JPG);
-    background-size: 100%;
 }
 
 /* -------------- */
@@ -110,6 +108,8 @@ header {
 /* --------------- */
 .baggrundsfarve_forside {
     background-color: #4C0D0D;
+    background-image: url(img/flaskertop_mobil.JPG);
+    background-size: 100%;
 }
 
 .intro_forside {
@@ -194,6 +194,39 @@ header {
     margin-top: -10%;
     padding-bottom: 25%;
     background-color: #1D0303;
+}
+
+.beige_wave {
+    width: 100%;
+    margin: -15% 0 0 0;
+}
+
+.champagne_info_container {
+    position: absolute;
+}
+
+.champagne_info_img {
+    width: 20%;
+}
+
+.champagne_info_boks {
+    background-color: #FEFAF1;
+    border: #3F0A0A solid 2px;
+}
+
+.graa_tekst {
+    font-family: Snell Roundhand Script, serif;
+    color: #ADA796;
+    font-size: 28pt;
+    text-align: center;
+}
+
+.roed_tekst {
+    font-family: Snell Roundhand Script, serif;
+    color: #3F0A0A;
+    font-size: 48pt;
+    text-align: center;
+    font-weight: 500;
 }
 
 /* --- OBS skal slettes igen --- */
