@@ -14,7 +14,7 @@
 header {
     background-color: #2E0707;
     box-shadow: 0px 7px 10.7px 3px rgba(0, 0, 0, 0.50);
-    height: 15%;
+    height: 100%;
 }
 
 /* Burgermenuikon */
@@ -28,10 +28,6 @@ header {
     margin: 0 5% 0 0;
 }
 
-/*.menu_flex_container {
-    display: none;
-}*/
-
 /* ----------------------------- */
 /* --- Navigation Burgermenu --- */
 /* ----------------------------- */
@@ -42,13 +38,16 @@ header {
     text-align: center;
     width: 100%;
     display: none;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0px 7px 10.7px 3px rgba(0, 0, 0, 0.50);
 }
 
 .menubtn {
     border: none;
     background-color: #2E0707;
     color: #F0E7D0;
-    font-family: Snell Roundhand Script;
+    font-family: Snell Roundhand Script, serif;
     font-size: 14pt;
     margin: 5% 0 5% 0;
     width: 100%;
@@ -81,6 +80,7 @@ header {
     width: 18%;
     margin: -5% 0 0 5%;
     position: absolute;
+    z-index: 2;
 }
 
 /* --------------- */
@@ -90,28 +90,31 @@ header {
     background-color: #2E0707;
 }
 
+.baggrundsfarve_forside {
+    background-color: #4C0D0D;
+}
+
+/* ---------------------- */
+/* --- CSS stor skærm --- */
+/* ---------------------- */
 @media screen and (min-width: 968px) {
+    /* -------------- */
+    /* --- Header --- */
+    /* -------------- */
     header {
         height: 4em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #burgermenu {
         display: none;
     }
 
-    .menu_flex_container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 100%;
-        margin: 0 15% 0 15%;
-    }
-
-    .menu_flex {
-        display: flex;
-        flex-direction: row;
-    }
-
+    /* ----------------------------- */
+    /* --- Navigation Burgermenu --- */
+    /* ----------------------------- */
     .menubtn {
         display: none;
     }
@@ -122,24 +125,32 @@ header {
 
     .dropdown_menu {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        width: 100%;
     }
 
     .dropdown_indhold_pc {
         text-align: center;
         background-color: #F0E7D0;
         display: none;
-        width: 100%;
+        width: 12%;
         display: none;
+        position: absolute;
+        border-radius: 1%;
     }
 
     .dropdown_indhold_pc a {
         color: #2E0707;
         font-family: Montserrat, sans-serif;
         font-size: 12pt;
-        padding: 5%;
+        padding: 10%;
         display: flex;
         flex-direction: column;
+        box-shadow: none;
+    }
+
+    .dropdown:hover .dropdown_indhold_pc {
+        display: block;
     }
 
     .dropdown_btn {
@@ -148,12 +159,18 @@ header {
         color: #F0E7D0;
         font-family: Snell Roundhand Script;
         font-size: 18pt;
+        width: 7em;
+        height: 2em;
     }
 
-    .dropdown:hover .dropdown_indhold_pc {
-        display: block;
+    .menu_venstre, .menu_hoejre {
+        display: flex;
+        flex-direction: row;
     }
 
+    /* ------------ */
+    /* --- Logo --- */
+    /* ------------ */    
     .logo_container {
         display: flex;
         justify-content: center;
