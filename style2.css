@@ -1,3 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Vinkort underside */
+.body_vinkort {
+    background-color: #590F0F ;
+}
+
+/* Vinkort og andet drikkelse med beige baggrund */
+
+.beige_boks {
+    background-color: #DED2BC ;
+    margin: 7%;
+    padding: 8% 5.5% 5% 5.5%;
+}
+
+.overskrift_beige_boks {
+    font-size: 35pt;
+    font-family: 'Futura Condensed PT', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 4.5%;
+}
+
+.underoverkrift1_beige_boks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.underoverskrifter_beige_boks {
+    font-family: 'Futura Condensed PT', sans-serif;
+    font-weight: 200;
+    font-size: 17pt;
+}
+
+.pris_underoverskrift_beige_boks {
+    font-family: montserrat;
+    font-weight: 400;
+    font-size: 12pt;
+    font-style: italic;
+    display: flex;
+    justify-content: right;
+}
+
+.container1_beige_boks {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Futura Condensed PT', sans-serif;
+    font-weight: lighter;
+    font-size: 14pt;
+    margin-top: 3%;
+    margin-bottom: 15%;
+    line-height: 170%;
+}
+
+.container2_beige_boks {
+    display: flex;
+    flex-direction: column;
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: 11pt;
+    margin-top: 4.5%;
+    font-style: italic;
+    gap: 11%;
+}
+
+.container2_beige_boks_midt {
+    display: flex;
+    flex-direction: column;
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: 11pt;
+    margin-top: 4.5%;
+    font-style: italic;
+    line-height: 200%;
+}
+
+.container_beige_boks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container2_beige_boks_sidste {
+    display: flex;
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: 11pt;
+    font-style: italic;
+    gap: 11%;
+    flex-direction: column;
+    margin-top: 10%;
+    padding: 1.5%;
+}
+
+.minus_lineheight {
+    margin-top: -4.5%;
+}
+
+
+/* alle "gå til booking" knapper */
+.booking_btn {
+    background-color: #841414;
+    border: none;
+    border-radius: 2.5%;
+    color: #F0E7D0;
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: 12pt;
+    padding: 4% 14%;
+}
+
+.booking_btn_container {
+    display: flex;
+    justify-content: center;
+    margin-top: -12%;
+}
+
+/* alle "tilbage til toppen" knapper */
+.tilbage_btn {
+    background-color: #841414;
+    border: none;
+    border-radius: 2.5%;
+    color: #F0E7D0;
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: 12pt;
+    padding: 2% 8%;
+}
+
+.tilbage_btn_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 9%;
+}
+
+
+
+/* footer */
+
 .footer {
     background-color: #2E0707;
+    font-family: montserrat;
+    font-weight: 200;
+    font-size: 10pt;
+    color: #F0E7D0 ;
+}
+
+.overskrift_footer {
+    font-size: 12pt;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 6% ;
+}
+
+/* info */
+
+.info_container_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.container_1_footer {
+    line-height: 150%;
+}
+
+.container_2_footer {
+    text-align: right;
+    line-height: 150%;
+}
+
+/* åbningstider */
+
+.aabningstider_container_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 33%;
+}
+
+.container_3_footer {
+    line-height: 150%;
+    margin-left: 5%;
+}
+
+.container_4_footer {
+    text-align: right;
+    line-height: 150%;
+}
+
+.aabningstider_footer {
+    margin-left: 10.5%;
+    margin-top: 5%;
+    line-height: 150%;
+}
+
+.koekkenetaabner_footer {
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+/* maps */
+
+.maps {
+    width: 85%;
+    margin-bottom: 5%;
+}
+
+.maps_image_container {
+    display: flex;
+    justify-content: center;
+}
+
+.findos_footer {
+    margin-left: 7.5%;
+    margin-bottom: 3%;
+    font-size: 11pt;
+}
+
+/* some */
+
+.facebook {
+    width: 2rem;
+}
+
+.instagram {
+    width: 2rem;
+}
+
+.kontrolrapport {
+    width: 6.1875rem;
+    margin-left: 7.5%;
+}
+
+.some_container_footer {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    align-content: center;
+}
+
+.dk_footer {
+    margin-left: 7.5%;
+    margin-top: 8%;
+    padding-bottom: 5%;
+    font-size: 9pt;
 }
