@@ -10,7 +10,16 @@
     background-color: #590F0F ;
 }
 
-/* Vinkort og andet drikkelse med beige baggrund */
+.lille_overskrift {
+    font-family: Snell Roundhand Script, serif;
+    color: #F0E7D0;
+    font-weight: 100;
+    font-size: 23pt;
+    text-align: center;
+}
+
+
+/* sektion med vinkort over plan b's andre specialiteter "se resten af vores specialiteter" */
 
 .beige_boks {
     background-color: #DED2BC ;
@@ -40,10 +49,11 @@
 .pris_underoverskrift_beige_boks {
     font-family: montserrat;
     font-weight: 400;
-    font-size: 12pt;
+    font-size: 11pt;
     font-style: italic;
     display: flex;
     justify-content: right;
+    align-items: end;
 }
 
 .container1_beige_boks {
@@ -53,9 +63,37 @@
     font-weight: lighter;
     font-size: 14pt;
     margin-top: 3%;
-    margin-bottom: 15%;
+    margin-bottom: 13%;
     line-height: 170%;
 }
+
+.beskrivelse_tekst {
+    font-family: montserrat;
+    font-style: italic;
+    font-size: 10pt;
+    margin-top: -6%;
+    margin-bottom: 6%;
+}
+
+.beskrivelse_tekst2 {
+    font-family: montserrat;
+    font-style: italic;
+    line-height: 120%;
+    font-size: 10pt;
+    margin-bottom: 6%;
+    max-width: 95%;
+}
+
+#saesonensvin_pris {
+    font-family: montserrat;
+    font-style: italic;
+    font-size: 10pt;
+    margin-bottom: 6%;
+}
+
+
+
+/* priser */
 
 .container2_beige_boks {
     display: flex;
@@ -63,9 +101,9 @@
     font-family: montserrat;
     font-weight: 300;
     font-size: 11pt;
-    margin-top: 4.5%;
+    margin-top: 4.9%;
     font-style: italic;
-    gap: 11%;
+    gap: 12.5%;
 }
 
 .container2_beige_boks_midt {
@@ -74,9 +112,9 @@
     font-family: montserrat;
     font-weight: 300;
     font-size: 11pt;
-    margin-top: 4.5%;
+    margin-top: 6%;
     font-style: italic;
-    line-height: 200%;
+    gap: 12.5%;
 }
 
 .container_beige_boks {
@@ -93,13 +131,95 @@
     font-style: italic;
     gap: 11%;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 11%;
     padding: 1.5%;
 }
 
 .minus_lineheight {
     margin-top: -4.5%;
 }
+
+#special_pris {
+    margin-top: 21%;
+}
+
+#special_pris2 {
+    margin-top: 21%;
+}
+
+.container23_beige_boks {
+    display: flex;
+    flex-direction: column;
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: 11pt;
+    margin-top: 4.9%;
+    font-style: italic;
+    gap: 5%;
+}
+
+.container24_beige_boks {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: 11pt;
+    margin-top: 4.9%;
+    font-style: italic;
+    gap: 14.5%;
+    width: 20%;
+}
+
+.container25_beige_boks {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: 11pt;
+    margin-top: 4.9%;
+    font-style: italic;
+    gap: 25.8%;
+    width: 50%;
+}
+
+.container26_beige_boks {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: 11pt;
+    margin-top: 4.9%;
+    font-style: italic;
+    gap: 16.3%;
+}
+
+#pris_17 {
+    margin-top: 30%;
+}
+
+#pris_18 {
+    margin-top: 38%;
+}
+
+    /* priser på kult bar rødvin*/
+#pris_2 {
+    margin-top: -1.5%;
+}
+#pris_3 {
+    margin-top: -6%;
+}
+#pris_4, #pris_5, #pris_6, #pris_7, #pris_8, #pris_9, #pris_10, #pris_11, #pris_12, #pris_13, #pris_14, #pris_15 {
+    margin-top: -3.7%;
+}
+
+#pris_16 {
+    margin-top: 14.5%;
+}
+
+
 
 
 /* alle "gå til booking" knapper */
@@ -117,8 +237,11 @@
 .booking_btn_container {
     display: flex;
     justify-content: center;
-    margin-top: -12%;
+    margin-top: -13%;
 }
+
+
+
 
 /* alle "tilbage til toppen" knapper */
 .tilbage_btn {
@@ -138,6 +261,7 @@
     margin-top: 8%;
     margin-bottom: 9%;
 }
+
 
 
 
