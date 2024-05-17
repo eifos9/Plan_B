@@ -103,15 +103,11 @@
     font-family: Snell Roundhand Script;
 }
 
-.photo-container {
-    width: 390px;
-    overflow: hidden; 
-}
-
 .bigphoto {
     width: 100%;
     position: absolute;
     z-index: -1;
+    margin-top: -20%;
 }
 
 /* røde bokse med vin */
