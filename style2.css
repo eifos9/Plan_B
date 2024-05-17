@@ -18,6 +18,30 @@
     text-align: center;
 }
 
+/* røde bokse med vin */
+
+.vin_flasker_img {
+    width: 6em;
+}
+
+.flag {
+    width: 6%;
+    position: absolute;
+    right: 15%;
+}
+
+.vin_containere {
+    background-color: #3F0A0A ;
+    margin: 7%;
+    padding: 8% 5.5% 5% 5.5%;
+}
+
+.img_flaske_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 
 /* sektion med vinkort over plan b's andre specialiteter "se resten af vores specialiteter" */
 
