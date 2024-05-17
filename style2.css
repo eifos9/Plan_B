@@ -79,9 +79,27 @@
     /* animation der bevæger pilen nedad og øger opacity for at indikere at man skal scrolle ned for at se mere */
 @keyframes scrollpil {
     0% {opacity: 0;}
-    25% {opacity: 0.3; transform: translateY(20px);}
-    50% {opacity: 0.8; transform: translateY(20px);}
-    100% {opacity: 1; transform: translateY(20px);}
+    25% {opacity: 0.3; transform: translateY(25px);}
+    50% {opacity: 0.8; transform: translateY(25px);}
+    100% {opacity: 1; transform: translateY(25px);}
+}
+
+#worldmap {
+    width: 100%;
+    margin-top: 7%;
+    margin-bottom: -10%;
+}
+
+#underoverskrift_vinkort {
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 5%;
+    font-size: 14pt;
+}
+
+.main_overskrift_vinkort {
+    font-size: 15pt;
 }
 
 
