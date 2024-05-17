@@ -24,6 +24,7 @@ header {
     z-index: 9;
     top: 0;
     left: 0;
+    width: 100%;
 }
 
 .header_mobil {
@@ -108,9 +109,10 @@ header {
 /* --- Forside --- */
 /* --------------- */
 .baggrund_forside {
-    background-color: #4C0D0D;
-    background-image: url(img/flaskertop_mobil.JPG);
-    background-size: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: -20%;
 }
 
 .intro_forside {
@@ -135,7 +137,7 @@ header {
 
 .lys_tekst {
     color: #F0E7D0;
-    size: 10pt;
+    font-size: 10pt;
     margin-bottom: 12%;
 }
 
@@ -200,7 +202,7 @@ header {
 .beige_wave {
     width: 100%;
     margin: -15% 0 0 0;
-    height: 80em;
+    height: 90em;
     position: absolute;
     position: relative;
     z-index: 3;
@@ -209,6 +211,13 @@ header {
 .champagne_info_container {
     position: absolute;
     z-index: 5;
+    width: 100%;
+}
+
+.info_indhold {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .champagne_info_img {
@@ -224,6 +233,31 @@ header {
     width: 55%;
     padding: 10% 5%;
     margin: 5%;
+}
+
+.cirkel_info {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: #3F0A0A;
+    display: inline-block;
+}
+
+.vertikal_streg_info {
+    height: 4em;
+    width: 2px;
+    background-color: #3F0A0A;
+    display: inline-block;
+    margin-bottom: -5%;
+}
+
+.vertikal_streg_info_2 {
+    height: 4em;
+    width: 2px;
+    background-color: #3F0A0A;
+    display: inline-block;
+    margin-bottom: -5%;
+    margin-top: -5%;
 }
 
 .graa_tekst {
@@ -273,6 +307,7 @@ header {
     background-size: cover;
     margin: -45% 0 0 0;
     padding: 0 0 5% 0;
+    position: relative;
 }
 
 .lys_tekst_stor {
@@ -564,5 +599,17 @@ h3 {
     .logo {
         width: 10%;
         margin: 1% 0 0 0;
+    }
+
+    /* --------------- */
+    /* --- Forside --- */
+    /* --------------- */
+    .baggrundsbillede_pc {
+        width: 100%;
+        margin-top: -7%;
+    }
+
+    .baggrund_forside {
+        background-image: none;
     }
 }
