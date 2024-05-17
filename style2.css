@@ -13,7 +13,7 @@
 .lille_overskrift {
     font-family: Snell Roundhand Script, serif;
     color: #F0E7D0;
-    font-weight: 100;
+    font-weight: lighter;
     font-size: 23pt;
     text-align: center;
 }
@@ -21,13 +21,30 @@
 /* røde bokse med vin */
 
 .vin_flasker_img {
-    width: 6em;
+    width: 5.5em;
+    margin-bottom: 14%;
 }
 
 .flag {
     width: 6%;
     position: absolute;
     right: 15%;
+}
+
+.navn_vin {
+    color: #F0E5D0;
+    font-size: 9pt;
+    font-style: italic;
+    margin-bottom: 4.5%;
+    line-height: 130%;
+}
+
+.beskrivelse_vin {
+    color: #F0E5D0;
+    font-size: 10pt;
+    font-style: italic;
+    line-height: 130%;
+    font-weight: 100;
 }
 
 .vin_containere {
@@ -40,6 +57,16 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.overskrifter_vinkort {
+    font-family: Snell Roundhand Script, serif;
+    color: #E7B129;
+    font-size: 40pt;
+    margin-top: 18%;
+    margin-bottom: 10%;
+    font-weight: lighter;
+    text-align: center;
 }
 
 
