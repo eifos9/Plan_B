@@ -97,12 +97,19 @@
     font-size: 14pt;
 }
 
-.main_overskrift_vinkort {
-    font-size: 15pt;
+#main_overskrift_vinkort {
+    font-size: 30pt;
+    margin-top: 15%;
+    font-family: Snell Roundhand Script;
+}
+
+.photo-container {
+    width: 390px;
+    overflow: hidden; 
 }
 
 .bigphoto {
-    width: 100%;
+    width: 170%;
     position: absolute;
     z-index: -1;
 }
