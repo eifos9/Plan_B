@@ -109,7 +109,7 @@
 }
 
 .bigphoto {
-    width: 170%;
+    width: 100%;
     position: absolute;
     z-index: -1;
 }
