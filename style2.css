@@ -44,6 +44,9 @@
     flex-direction: column;
 }
 
+#draabe_vinkort {
+    width: 100%;
+}
 
 
 /* røde bokse med vin */
@@ -90,7 +93,7 @@
 .overskrifter_vinkort {
     font-family: Snell Roundhand Script, serif;
     color: #E7B129;
-    font-size: 40pt;
+    font-size: 32pt;
     margin-top: 18%;
     margin-bottom: 10%;
     font-weight: lighter;
