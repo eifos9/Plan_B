@@ -16,7 +16,35 @@
     font-weight: lighter;
     font-size: 23pt;
     text-align: center;
+    margin-top: 17%;
+    margin-bottom: 1%;
 }
+
+.tilgang_btn {
+    background-color: #841414;
+    border: none;
+    border-radius: 0.1875rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #F0E7D0;
+    font-family: montserrat;
+    font-weight: 200;
+    font-size: 14pt;
+    width: 82%;
+    margin: 2% 0%;
+    padding: 5% 0;
+}
+
+#tilgang_btn_container {
+    margin-top: 8%;
+}
+
+.tilgang_btn_container_div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 
 /* røde bokse med vin */
 
@@ -277,7 +305,7 @@
 .booking_btn {
     background-color: #841414;
     border: none;
-    border-radius: 2.5%;
+    border-radius: 0.1875rem;
     color: #F0E7D0;
     font-family: montserrat;
     font-weight: 300;
@@ -298,7 +326,7 @@
 .tilbage_btn {
     background-color: #841414;
     border: none;
-    border-radius: 2.5%;
+    border-radius: 0.1875rem;
     color: #F0E7D0;
     font-family: montserrat;
     font-weight: 300;
