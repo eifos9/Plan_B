@@ -99,15 +99,16 @@
 
 #main_overskrift_vinkort {
     font-size: 30pt;
-    margin-top: 15%;
     font-family: Snell Roundhand Script;
+    margin-top: 30%;
 }
 
 .bigphoto {
     width: 100%;
     position: absolute;
     z-index: -1;
-    margin-top: -20%;
+    margin-top: 18%;
+
 }
 
 /* røde bokse med vin */
