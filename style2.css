@@ -47,7 +47,7 @@
 #draabe_vinkort {
     width: 100%;
     margin-bottom: -10%;
-    margin-top: -10%;
+    margin-top: -15%;
     z-index: 1;
     position: relative;
 }
@@ -59,7 +59,7 @@
     font-size: 30pt;
     text-align: center;
     margin-top: 17%;
-    margin-bottom: -8.5%;
+    margin-bottom: -5.5%;
     position: relative;
     z-index: 3;
 }
@@ -107,6 +107,7 @@
     width: 100%;
     position: absolute;
     z-index: -1;
+    margin-top: -18%;
 }
 
 /* røde bokse med vin */
@@ -495,14 +496,17 @@
 
 .facebook {
     width: 2rem;
+    height: 2rem;
 }
 
 .instagram {
     width: 2rem;
+    height: 2rem;
 }
 
 .kontrolrapport {
     width: 6.1875rem;
+    height: 2rem;
     margin-left: 7.5%;
 }
 
