@@ -115,6 +115,8 @@ header {
 /* --------------- */
 .body_forside {
     background-color: #4C0D0D;
+    position: absolute;
+    z-index: -10;
 }
 
 /* --- Intro --- */
@@ -177,6 +179,11 @@ header {
 
 #booking_btn_forside {
     display: none;
+}
+
+#video_forside {
+    width: 100%;
+    margin: -10% 0 -2% 0;
 }
 
 /* --- Mystisk tirsdag --- */
@@ -409,6 +416,195 @@ h4 {
     display: none;
 }
 
+/* -------------------*/
+/* ---- Se stedet --- */
+/* ------------------ */
+
+h1 {
+    font-family: Snell Roundhand Script, serif;
+    font-size: 28pt;
+    font-weight: 100;
+    margin: 15% 0;
+}
+
+#lys_tekst_header {
+    text-align: center;
+    font-size: 12pt;
+}
+
+.h1_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 25% 16%;
+}
+
+.hyggekrog1_indhold {
+    margin: 12% 7% 12% 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
+    max-width: 100%;
+}
+
+#beige_wave_sestedet {
+    width: 100%;
+    margin: -20% 0 0 0;
+    height: 73em;
+    position: absolute;
+    z-index: -1;
+}
+
+#druen {
+    padding-top: 5%;
+}
+
+.hjoerne1 {
+    height: 3em;
+}
+
+.hjoerne2 {
+    height: 3em;
+    transform: rotate(90deg);
+}
+
+.hjoerne3 {
+    height: 3em;
+    transform: rotate(-90deg);
+    margin-top: -5%;
+}
+
+.hjoerne4 {
+    height: 3em;
+    transform: rotate(180deg);
+    margin-top: -5%;
+}
+
+.hjoerne_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#roed_stedet {
+    font-size: 36pt;
+    margin-top: -2%;
+}
+
+#roed_lille_stedet {
+    text-align: center;
+    padding: 5% 12%;
+}
+
+#lys_stedet {
+    font-size: 36pt;
+    margin-top: -2%;
+    color: #F0E5D0;
+}
+
+#lys_lille_stedet {
+    text-align: center;
+    padding: 5% 12%;
+    color: #F0E5D0;
+}
+
+.stedet_billede {
+    width: 100%;
+    padding: 0 7% 0 7%;
+}
+
+.hyggekrog2_container {
+    margin-top: 35%;
+}
+
+.stedet_baggrund {
+    background-image: url(img/moenster2.png);
+    background-size: 100%;
+    position: relative;
+    z-index: -3;
+}
+
+#booking_stedet_btn {
+    margin-top: 10%;
+}
+
+.kort_billede {
+    width: 100%;
+}
+
+.h1_stedet {
+    color: #ffffff;
+    font-size: 48pt;
+    text-align: center;
+    margin: 25% 0 10% 0;
+    font-weight: 100;
+}
+
+.slide_video {
+    background-color: #4C0D0D;
+    margin: -40% 0 0 0;
+    height: auto;
+}
+
+.stedet_container {
+    padding: 35% 0 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+video {
+    width: 85%;
+}
+
+.stedet_lys_tekst {
+    margin-bottom: 0;
+    font-size: 18pt;
+    color: #ffffff;
+    padding: 3% 5%;
+}
+
+#stedet_lille_tekst {
+    font-size: 12pt;
+    padding-bottom: 5%;
+}
+
+.billedgalleri {
+    width: 85%;
+    margin: 5% 0 15% 0;
+}
+
+#pil_v {
+    transform: rotate(180deg);
+}
+
+.pile_slide {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 90%;
+    position: absolute;
+    top: 80%;
+}
+
+.beige_wave_stor {
+    display: none;
+}
+
+#book_pc {
+    display: none;
+}
+
+/*
+.cirkel_galleri {
+    width: 10px;
+    height: 10px;
+    background-color: #671313;
+    border-radius: 50%;
+    margin: 30%;
+}*/
+
 /* --- OBS skal slettes igen --- */
 .booking_btn {
     background-color: #841414;
@@ -435,6 +631,7 @@ h3 {
     text-align: center;
 }
 
+/* --- obs skal ikke slettes --- */
 .tilbage_btn {
     background-color: #841414;
     border: none;
@@ -444,6 +641,7 @@ h3 {
     font-weight: 300;
     font-size: 12pt;
     padding: 3% 8%;
+    margin-top: 5%;
 }
 
 .tilbage_btn_container {
@@ -460,7 +658,7 @@ h3 {
     font-family: montserrat;
     font-weight: 200;
     font-size: 10pt;
-    color: #F0E7D0 ;
+    color: #F0E7D0;
 }
 
 .overskrift_footer {
@@ -743,7 +941,7 @@ h3 {
         font-size: 15pt;
         padding: 1.5% 5%;
         position: absolute;
-        top: 98%;
+        top: 38em;
         display: block;
     }
     
@@ -755,6 +953,11 @@ h3 {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    #video_forside {
+        height: 120em;
+        margin: -92% 0;
     }
 
     /* --- Mystisk tirsdag --- */
@@ -805,7 +1008,7 @@ h3 {
         width: 18%;
         position: absolute;
         right: 3%;
-        top: 105%;
+        top: 13%;
         display: block;
     }
 
@@ -835,7 +1038,7 @@ h3 {
 
     .overskrift_info_container {
         width: 50%;
-        margin: -10% 8% 0 0;
+        margin: 10% 8% 0 0;
     }
     
     .info_indhold {
@@ -1059,6 +1262,181 @@ h3 {
 
     #vinkort_btn_hide {
         display: block;
+    }
+
+    /* ----------------- */
+    /* --- Se stedet --- */
+    /* ----------------- */
+
+    /* --- Intro --- */
+
+    #h1_stor {
+        font-size: 62pt;
+        margin: -15%;
+    }
+
+    #lys_tekst_header {
+        margin: 18% 0 0 0;
+        font-size: 16pt;
+    }
+   
+
+    /* --- Druen Riddersalen --- */
+
+    #beige_wave_sestedet {
+        display: none;
+    }
+
+    .beige_wave_stor {
+        margin: -20% 0;
+        display: block;
+    }
+
+    #beige_roed_wave {
+        height: 90em;
+    }
+
+    .hyggekrog1_container {
+        display: flex;
+        justify-content: center;
+        margin: -70% 0;
+    }
+
+    .hyggekrog2_container {
+        margin: 12% 7% 12% 7%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 5;
+        max-width: 100%;
+    }
+
+    #hyggekrog1_container {
+        display: flex;
+        justify-content: center;
+        margin: 70% 0;
+    }
+
+    .roed_tekst {
+        float: none;
+    }
+
+    #roed_stedet {
+        font-size: 48pt;
+    }
+
+    #roed_lille_stedet {
+        font-size: 15pt;
+        margin: 10% 0;
+    }
+
+    #lys_lille_stedet {
+        font-size: 15pt;
+        margin: 10% 0;
+    }
+
+    .stedet_billede {
+        padding: 0;
+        width: 35em;
+    }
+
+    .hjoerne1 {
+        height: 4em;
+        margin: -5% 0 0 -5%;
+    }
+    
+    .hjoerne2 {
+        height: 4em;
+        transform: rotate(90deg);
+        margin: -5% -5% 0 0;
+    }
+    
+    .hjoerne3 {
+        height: 4em;
+        transform: rotate(-90deg);
+        margin: -2% 0 0 -5%;
+    }
+    
+    .hjoerne4 {
+        height: 4em;
+        transform: rotate(180deg);
+        margin: -2% -5% 0 0;
+    }
+
+    #druen {
+        margin-top: 3%;
+    }
+
+    #riddersalen {
+        margin-top: 2%;
+    }
+
+    #hjoernkrog {
+        margin-top: 5%;
+    }
+
+    #lys_stedet {
+        font-size: 48pt;
+    }
+
+    .booking_btn {
+        font-size: 14pt;
+        padding: 1.5% 6%;
+    }
+
+    #book_pc {
+        margin-top: -70%;
+        display: block;
+    }
+    
+    .stedet_baggrund {
+        background-image: url(img/moenster2_stor.png);
+        background-size: 100%;
+        position: relative;
+        z-index: -3;
+    }
+
+    #book_none {
+        display: none;
+    }
+
+    .h1_stedet {
+        margin: 5%;
+        font-size: 62pt;
+    }
+
+    .stedet_container {
+        margin: 8% 0 0 0;
+    }
+
+    .billedgalleri {
+        width: 30%;
+        margin: 0 0 7% 0;
+    }
+
+    .pile_slide {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 50%;
+        position: absolute;
+        top: 72%;
+    }
+
+    .stedet_lys_tekst {
+        margin-bottom: 0;
+        font-size: 48pt;
+        color: #ffffff;
+        padding: 2% 5%;
+    }
+    
+    #stedet_lille_tekst {
+        font-size: 15pt;
+        padding-bottom: 5%;
+    }
+
+    video {
+        width: 66%;
     }
 
 
