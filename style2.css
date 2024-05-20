@@ -116,9 +116,21 @@
 #draabe_vinkort {
     width: 100%;
     margin-bottom: -10%;
-    margin-top: -15%;
+    margin-top: -16.7%;
     z-index: 1;
     position: relative;
+}
+
+#lille_overskrift {
+    font-family: Snell Roundhand Script, serif;
+    color: #F0E7D0;
+    font-weight: lighter;
+    font-size: 30pt;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: -5.5%;
+    position: relative;
+    z-index: 3;
 }
 
 #pil_scroll_container {
@@ -161,18 +173,6 @@
     position: absolute;
     z-index: -1;
     margin-top: -18%;
-}
-
-#lille_overskrift {
-    font-family: Snell Roundhand Script, serif;
-    color: #F0E7D0;
-    font-weight: lighter;
-    font-size: 30pt;
-    text-align: center;
-    margin-top: 17%;
-    margin-bottom: -5.5%;
-    position: relative;
-    z-index: 3;
 }
 
 /* røde bokse med vin */
@@ -221,7 +221,6 @@
     color: #E7B129;
     font-size: 32pt;
     margin-top: 18%;
-    margin-bottom: 10%;
     font-weight: lighter;
     text-align: center;
 }
