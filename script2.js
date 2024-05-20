@@ -18,3 +18,45 @@ function infovin(){
 function infovinluk() {
     overlay.style.display = "none";
 }
+
+
+
+
+
+
+const minusButtons = document.getElementsByClassName("minus");
+const plusButtons = document.getElementsByClassName("plus");
+const antal = document.getElementsByClassName("antal")[0];
+
+// gyudon knap
+
+// Opdaterer det aktuelle antal, der vises:
+function opdaterAntal() {
+    antal.innerHTML = tal;
+  }
+  
+  // Event listener - minus-knap:
+  for (let i = 0; i < minusButtons.length; i++) {
+    minusButtons[i].addEventListener("click", traekfra);
+  }
+  
+  // Event handler - trækker fra, men ikke mindre end 0:
+  function traekfra() {
+    if (tal > 0) {
+      tal--;
+      opdaterAntal();
+    }
+  }
+  // Event listener - plus-knapperne:
+  
+  for (let i = 0; i < plusButtons.length; i++) {
+    plusButtons[i].addEventListener("click", laegtil);
+  }
+  
+  // Event handler - lægger til, men ikke mere end 6:
+  function laegtil() {
+    if (tal < 6) {
+      tal++;
+      opdaterAntal();
+    }
+  }

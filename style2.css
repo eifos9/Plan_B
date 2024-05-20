@@ -551,6 +551,23 @@ h5 {
     margin-top: 10%;
 }
 
+.btn_naeste_annullér {
+    background-color: #4D0C0C;
+    border: none;
+    padding: 2.5% 18%;
+    color: #FFF8EA;
+    font-family: montserrat;
+    font-size: 12pt;
+    font-weight: 200;
+    margin-bottom: 15%;
+}
+
+.btn_naeste_annullér_container {
+    display: flex;
+    justify-content: center;
+}
+
+
     /* gavekort */
 .p1_gavekort {
     font-family: montserrat;
@@ -608,6 +625,28 @@ h5 {
     border: none;
 }
 
+    /* antal gavekort tæller */
+.antal_gavekort_taeller {
+    background-color: #F0E5D0;
+    width: 28%;
+    padding: 2% 4%;
+}
+
+.minus, .plus, .antal {
+    color: black;
+    border: none;
+    background-color: #F0E5D0;
+    font-size: 20pt;
+    font-family: montserrat;
+    font-weight: 200;
+    margin: 0 5%;
+}
+
+#antal_gavekort_container {
+    display: flex;
+    justify-content: center;
+    margin: 10% 0;
+}
 
 /* footer */
 
