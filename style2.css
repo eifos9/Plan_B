@@ -121,18 +121,6 @@
     position: relative;
 }
 
-#lille_overskrift {
-    font-family: Snell Roundhand Script, serif;
-    color: #F0E7D0;
-    font-weight: lighter;
-    font-size: 30pt;
-    text-align: center;
-    margin-top: 17%;
-    margin-bottom: -5.5%;
-    position: relative;
-    z-index: 3;
-}
-
 #pil_scroll_container {
     display: flex;
     justify-content: center;
@@ -153,6 +141,12 @@
     100% {opacity: 1; transform: translateY(25px);}
 }
 
+#main_overskrift_vinkort {
+    font-size: 30pt;
+    font-family: Snell Roundhand Script;
+    margin-top: 30%;
+}
+
 #underoverskrift_vinkort {
     color: white;
     text-align: center;
@@ -162,17 +156,23 @@
     line-height: 155%;
 }
 
-#main_overskrift_vinkort {
-    font-size: 30pt;
-    font-family: Snell Roundhand Script;
-    margin-top: 30%;
-}
-
 .bigphoto {
     width: 100%;
     position: absolute;
     z-index: -1;
     margin-top: -18%;
+}
+
+#lille_overskrift {
+    font-family: Snell Roundhand Script, serif;
+    color: #F0E7D0;
+    font-weight: lighter;
+    font-size: 30pt;
+    text-align: center;
+    margin-top: 17%;
+    margin-bottom: -5.5%;
+    position: relative;
+    z-index: 3;
 }
 
 /* røde bokse med vin */
