@@ -672,6 +672,14 @@ video {
     display: none;
 }
 
+.fodspor_mw_pc {
+    display: none;
+}
+
+.fodspor_mw_pc_bund {
+    display: none;
+}
+
 /* --- OBS skal slettes igen --- */
 .booking_btn {
     background-color: #841414;
@@ -1568,13 +1576,13 @@ h3 {
         background-color: #1D0303;
         position: relative;
         z-index: -3;
-        padding-bottom: 10%;
+        padding-bottom: 5%;
     }
 
     #mw_tekst_forbered {
-        text-align: center;
+        text-align: left;
         font-size: 15pt;
-        padding: 35% 5% 10% 5%;
+        padding: 28% 5% 10% 8%;
     }
 
     #mw_stor2 {
@@ -1583,6 +1591,37 @@ h3 {
 
     .lys_tekst_mw {
         margin-left: -30%;
+    }
+
+    .sevoresvinkort_btn_mw {
+        background-color: #841414;
+        border: none;
+        border-radius: 2.5%;
+        color: #F0E7D0;
+        font-family: montserrat;
+        font-weight: 300;
+        font-size: 12pt;
+        padding: 1.5% 5%;
+        position: absolute;
+        margin: -6% 8%;
+    }
+
+    .fodspor_mw_pc {
+        position: absolute;
+        top: 10%;
+        width: 35%;
+        z-index: 0;
+        display: block;
+    }
+
+    .fodspor_mw_pc_bund {
+        position: absolute;
+        top: 35%;
+        right: 5%;
+        width: 35%;
+        z-index: -2;
+        transform: scaleX(-1);
+        display: block;
     }
 
 
