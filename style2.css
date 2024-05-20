@@ -200,7 +200,7 @@ h5 {
     100% {opacity: 1; transform: translateY(25px);}
 }
 
-#main_overskrift_vinkort {
+.main_overskrift {
     font-size: 30pt;
     font-family: Snell Roundhand Script;
     margin-top: 30%;
@@ -219,7 +219,7 @@ h5 {
     width: 100%;
     position: absolute;
     z-index: -1;
-    margin-top: -18%;
+    margin-top: -20%;
 }
 
 /* røde bokse med vin */
@@ -516,7 +516,97 @@ h5 {
     margin-bottom: 9%;
 }
 
+/* gavekort underside + booking */
+    /* fælles */
+.breadcrumbs_img {
+    width: 8%;
+}
 
+.breadcrumbs_p {
+    color: white;
+    font-size: 14pt;
+    font-weight: 200;
+}
+
+.breadcrumbs_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin-top: 5%;
+}
+
+.breadcrumbs_con {
+    display: flex;
+    flex-direction: column;
+}
+
+.overskrift2 {
+    font-family: montserrat;
+    font-weight: 200;
+    font-size: 18pt;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+
+    /* gavekort */
+.p1_gavekort {
+    font-family: montserrat;
+    font-weight: 200;
+    font-size: 10pt;
+    color: white;
+    text-align: center;
+    margin: 3% 0;
+}
+
+.p2_gavekort {
+    font-family: montserrat;
+    font-weight: 200;
+    font-size: 12pt;
+    color: white;
+    text-align: center;
+    width: 60%;
+}
+
+.p_container_gavekort {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gavekort_btn_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+}
+
+.gavekort_btn {
+    background-color: #6E1010;
+    border: none;
+    color: #FFF8EA;
+    font-family: montserrat;
+    font-size: 12pt;
+    font-weight: 200;
+    width: 35%;
+    padding: 4% 0;
+    margin-top: 8%;
+}
+
+#form_container {
+    display: flex;
+    justify-content: center ;
+    margin-top: 10%;
+}
+
+#form_input {
+    width: 60%;
+    padding: 2% 2%;
+    color: #acacac;
+    border: none;
+}
 
 
 /* footer */
