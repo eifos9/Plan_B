@@ -679,6 +679,270 @@ video {
     display: none;
 }
 
+/* ----------------------- */
+/* --- Upcoming events --- */
+/* ----------------------- */
+
+#header_pink {
+    background-color: #6F3842;
+}
+
+.rose_intro {
+    background-color: #F8C3C2;
+    margin: 7%;
+    padding: 5%;
+}
+
+#rose_intro_img {
+    width: 90%;
+    margin: 25% 0 3% 0;
+}
+
+.rose_intro_overskrift {
+    font-family: Snell Roundhand Script, serif;
+    font-size: 20pt;
+    margin: 5%;
+}
+
+.rose_intro_tekst {
+    line-height: 170%;
+    text-align: center;
+    padding: 2% 8% 8% 8%;
+}
+
+.vertikal_linje {
+    height: 1px;
+    width: 65px;
+    background-color: #000000;
+    display: inline-block;
+}
+
+.rose_overskrift_con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.running_img {
+    width: 45%;
+}
+
+#rose_btn {
+    position: absolute;
+    top: 47%;
+    z-index: 5;
+    background-color: #6F3842;
+}
+
+#rose_btn_pc {
+    display: none;
+}
+
+#beige_wave_rose {
+    margin: -3% 0 0 0;
+    height: 43em;
+    width: 100%;
+}
+
+/* --- obs skal ikke slettes */
+.beige_boks {
+    background-color: #E9B0AF ;
+    margin: 22% 7% 0 7%;
+    padding: 8% 5.5% 5% 5.5%;
+    position: absolute;
+    z-index: 5;
+}
+
+.rose_boks {
+    display: flex;
+    justify-content: center;
+}
+
+.upcoming_boks_con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upcoming_boks1 {
+    height: 6em;
+    width: 86%;
+    border: 3px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upcoming_boks2 {
+    height: 9em;
+    width: 86%;
+    margin-top: -1%;
+    border: 2px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.upcoming_boks3 {
+    height: 8em;
+    width: 86%;
+    margin-top: -1%;
+    border: 2px solid #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#rose_baggrund {
+    margin-top: 20%;
+    position: relative;
+}
+
+.upcoming_events {
+    background-image: url(img/insta_runningclub_mobil.png);
+    background-size: 100%;
+    height: 55em;
+    margin-top: -10%;
+    padding-top: 50%;
+}
+
+.opdateres_tekst {
+    color: #F5B4C5;
+    font-size: 24pt;
+    font-weight: 400;
+    text-align: center;
+    margin: 15% 0 20% 0;
+}
+
+#lys_events {
+    font-size: 34pt;
+    margin-bottom: 10%;
+    color: #ffffff;
+}
+
+.vertikal_lys {
+    height: 4em;
+    width: 2px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 0 -5% 0 -5%;
+}
+
+.dato_tekst {
+    font-family: 'Futura Condensed PT', sans-serif;
+    color: #ffffff;
+    font-size: 36pt;
+}
+
+.running_tekst_flex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.rose_tekst {
+    font-family: 'Times New Roman', Times, serif;
+    color: #F5B4C5;
+    margin-right: 8px;
+    font-size: 24pt;
+}
+
+.club_tekst {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 24pt;
+}
+
+.praktisk_tekst {
+    color: #ffffff;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.aarhus_tekst {
+    color: #ffffff;
+    text-align: center;
+}
+
+.praktisk_flex {
+    width: 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1_beige_boks_pc {
+    display: none;
+}
+
+/* --- obs skal slettes igen --- */
+.overskrift_beige_boks {
+    font-size: 35pt;
+    font-family: 'Futura Condensed PT', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 4.5%;
+}
+
+.underoverkrift1_beige_boks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.underoverskrifter_beige_boks {
+    font-family: 'Futura Condensed PT', sans-serif;
+    font-weight: 200;
+    font-size: 17pt;
+}
+
+.pris_underoverskrift_beige_boks {
+    font-family: montserrat;
+    font-weight: 400;
+    font-size: 11pt;
+    font-style: italic;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+
+.container1_beige_boks {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Futura Condensed PT', sans-serif;
+    font-weight: lighter;
+    font-size: 14pt;
+    margin-top: 3%;
+    margin-bottom: 13%;
+    line-height: 170%;
+}
+
+.beskrivelse_tekst {
+    font-family: montserrat;
+    font-style: italic;
+    font-size: 10pt;
+    margin-top: -6%;
+    margin-bottom: 6%;
+}
+
+.container26_beige_boks {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: 11pt;
+    margin-top: 4.9%;
+    font-style: italic;
+    gap: 16.3%;
+}
+
+.container_beige_boks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /* --- OBS skal slettes igen --- */
 .booking_btn {
     background-color: #841414;
@@ -824,6 +1088,7 @@ h3 {
     margin-left: 7.5%;
 }
 
+/* -- obs skal ikke slettes --- */
 .some_container_footer {
     display: flex;
     flex-direction: row;
@@ -980,6 +1245,7 @@ h3 {
         padding: 1.5%;
         align-items: center;
         z-index: 3;
+        line-height: 150%;
     }
 
     .intro_billede {
@@ -1622,6 +1888,174 @@ h3 {
         width: 40%;
         z-index: -2;
         transform: scaleX(-1);
+        display: block;
+    }
+
+    /* ----------------------- */
+    /* --- Upcoming events --- */
+    /* ----------------------- */
+
+    #baggrund_pc_rose {
+        margin-top: 5%;
+    }
+
+    #dropdownbtn_pink {
+        background-color: #6F3842;
+    }
+
+    #rose_intro_img {
+        width: 60%;
+        margin: 10% 0 3% 0;
+    }
+
+    .rose_intro {
+        background-color: #F8C3C2;
+        margin: 2% 3%;
+        padding: 0;
+    }
+
+    .rose_intro_overskrift {
+        font-family: Snell Roundhand Script, serif;
+        font-size: 28pt;
+        margin: 2% 0 0 0;
+    }
+
+    .vertikal_linje {
+        height: 1.5px;
+        width: 80px;
+        margin: 5% 3% 0 3%;
+    }
+
+    .rose_intro_tekst {
+        line-height: 170%;
+        text-align: center;
+        padding: 1% 18% 3% 18%;
+    }
+
+    .running_img {
+        width: 18%;
+        padding-top: 2%;
+    }
+
+    #beige_wave_rose {
+        display: none;
+    }
+
+    #beige_wave_rose_stor {
+        margin-top: -7%;
+    }
+
+    .beige_boks {
+        margin: 15% 7% 0 7%;
+        padding: 3% 5.5% 2% 5.5%;
+        width: 80%;
+        height: 17%;
+    }
+
+    .overskrift_beige_boks {
+        font-size: 42pt;
+        margin-bottom: 1%;
+    }
+
+    .container26_beige_boks {
+        margin-top: 3.5%;
+        gap: 14%;
+    }
+
+    .beskrivelse_tekst {
+        font-family: montserrat;
+        font-style: italic;
+        font-size: 10pt;
+        font-weight: 300;
+        margin-top: -1%;
+        margin-bottom: 2%;
+    }
+
+    .container1_beige_boks {
+        display: none;
+    }
+
+    .container1_beige_boks_pc {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Futura Condensed PT', sans-serif;
+        font-weight: lighter;
+        font-size: 14pt;
+        margin-top: 3%;
+        margin-bottom: 13%;
+        line-height: 170%;
+        display: flex;
+    }
+
+    #upcoming_events_pc {
+        background-image: url(img/insta_runningclub.png);
+        height: 82em;
+        margin-top: -23%;
+        padding-top: 50%;
+    }
+
+    .upcoming_boks_con {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: -5% 7% -6% 7%;
+    }
+
+    .upcoming_boks1 {
+        height: 9em;
+        width: 23%;
+    }
+
+    .dato_tekst {
+        padding: 0 85%;
+        text-align: center;
+    }
+
+    .upcoming_boks2 {
+        height: 9em;
+        width: 86%;
+        margin-top: 0;
+        margin-left: -0.2%;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .upcoming_boks3 {
+        height: 9em;
+        width: 45%;
+        margin-top: 0;
+        margin-left: -0.2%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .vertikal_lys {
+        height: 7em;
+    }
+
+    .running_tekst_flex {
+        width: 60%;
+    }
+
+    .rose_tekst {
+        margin-right: 10px;
+        font-size: 32pt;
+    }
+
+    .club_tekst {
+        font-size: 32pt;
+    }
+
+    #footer_pink {
+        background-color: #6F3842;
+    }
+
+    #rose_btn_pc {
+        position: absolute;
+        top: 49%;
+        left: 20%;
+        z-index: 5;
+        background-color: #6F3842;
         display: block;
     }
 
