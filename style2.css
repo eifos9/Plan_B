@@ -6,6 +6,75 @@
 }
 
 /* Vinkort underside */
+#pin1 {
+    position: absolute;
+    width: 4%;
+    left: 8%;
+    margin-top: 15%;
+}
+
+#pin2 {
+    position: absolute;
+    width: 4%;
+    left: 21%;
+    margin-top: 38%;
+}
+#pin3 {
+    position: absolute;
+    width: 4%;
+    left: 40%;
+    margin-top: 18%;
+}
+#pin4 {
+    position: absolute;
+    width: 4%;
+    left: 40%;
+    margin-top: 12%;
+    rotate: -30deg;
+}
+#pin5 {
+    position: absolute;
+    width: 4%;
+    left: 43%;
+    margin-top: 10%;
+}
+#pin6 {
+    position: absolute;
+    width: 4%;
+    left: 46%;
+    margin-top: 12%;
+    rotate: 30deg;
+}
+#pin7 {
+    position: absolute;
+    width: 4%;
+    left: 48%;
+    margin-top: 15.5%;
+    rotate: 70deg;
+}
+#pin8 {
+    position: absolute;
+    width: 4%;
+    right: 14.5%;
+    margin-top: 40%;
+}
+#pin9 {
+    position: absolute;
+    width: 4%;
+    right: 7%;
+    margin-top: 43%;
+}
+
+    /* hover effekt til alle pins */
+#pin1:hover, #pin2:hover, #pin3:hover, #pin4:hover, #pin5:hover, #pin6:hover, #pin7:hover, #pin8:hover, #pin9:hover {
+    width: 5%;
+}
+
+#worldmap {
+    width: 96%;
+    margin: 7% 2% -10% 2%;
+}
+
 .body_vinkort {
     background-color: #590F0F ;
 }
@@ -84,17 +153,13 @@
     100% {opacity: 1; transform: translateY(25px);}
 }
 
-#worldmap {
-    width: 96%;
-    margin: 7% 2% -10% 2%;
-}
-
 #underoverskrift_vinkort {
     color: white;
     text-align: center;
     font-weight: lighter;
-    margin-top: 5%;
-    font-size: 14pt;
+    margin-top: 7%;
+    font-size: 13pt;
+    line-height: 155%;
 }
 
 #main_overskrift_vinkort {
