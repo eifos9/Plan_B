@@ -519,12 +519,12 @@ h5 {
 /* gavekort underside + booking */
     /* fælles */
 .breadcrumbs_img {
-    width: 8%;
+    width: 7%;
 }
 
 .breadcrumbs_p {
     color: white;
-    font-size: 14pt;
+    font-size: 13pt;
     font-weight: 200;
 }
 
@@ -548,18 +548,19 @@ h5 {
     font-size: 18pt;
     color: white;
     text-align: center;
-    margin-top: 10%;
+    margin: 10% 0 4% 0;
 }
 
 .btn_naeste_annullér {
     background-color: #4D0C0C;
     border: none;
-    padding: 2.5% 18%;
+    padding: 2.5% 10%;
     color: #FFF8EA;
     font-family: montserrat;
     font-size: 12pt;
     font-weight: 200;
     margin-bottom: 15%;
+    border-radius: 0.1875rem;
 }
 
 .btn_naeste_annullér_container {
@@ -610,6 +611,7 @@ h5 {
     width: 35%;
     padding: 4% 0;
     margin-top: 8%;
+    border-radius: 0.1875rem;
 }
 
 #form_container {
@@ -625,7 +627,7 @@ h5 {
     border: none;
 }
 
-    /* antal gavekort tæller */
+        /* antal gavekort tæller */
 .antal_gavekort_taeller {
     background-color: #F0E5D0;
     width: 28%;
@@ -646,6 +648,25 @@ h5 {
     display: flex;
     justify-content: center;
     margin: 10% 0;
+}
+
+    /* booking */
+.btn_booking_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_booking {
+    background-color: #6E1010;
+    border: none;
+    padding: 4% 0;
+    color: white;
+    font-family: montserrat;
+    font-weight: 200;
+    font-size: 12pt;
+    width: 60%;
+    margin-top: 5%;
+    border-radius: 0.1875rem;
 }
 
 /* footer */
