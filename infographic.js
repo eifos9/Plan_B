@@ -22,7 +22,7 @@ function infovinluk() {
 
 
 
-
+// antal gavekort
 
 const minusButtons = document.getElementById("minus");
 const plusButtons = document.getElementById("plus");
