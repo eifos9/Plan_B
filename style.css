@@ -161,7 +161,7 @@ header {
 }
 
 .gul_tekst {
-    margin: 3% 0 10% 0;
+    margin: 3% 0 6% 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -275,6 +275,7 @@ header {
     width: 55%;
     padding: 10% 5%;
     margin: 5%;
+    transition: opacity 1.5s;
 }
 
 .cirkel_info {
@@ -283,6 +284,7 @@ header {
     border-radius: 50%;
     background-color: #3F0A0A;
     display: inline-block;
+    transition: opacity 1.5s;
 }
 
 .vertikal_streg_info {
@@ -291,6 +293,7 @@ header {
     background-color: #3F0A0A;
     display: inline-block;
     margin-bottom: -5%;
+    transition: opacity 1.5s;
 }
 
 .vertikal_streg_info_2 {
@@ -300,6 +303,7 @@ header {
     display: inline-block;
     margin-bottom: -5%;
     margin-top: -5%;
+    transition: opacity 1.5s;
 }
 
 .graa_tekst {
@@ -400,6 +404,10 @@ h4 {
 }
 
 .draabe_stor_forside {
+    display: none;
+}
+
+.draabe_stor_forside_vinkort {
     display: none;
 }
 
@@ -639,6 +647,7 @@ for at indikere, at man skal scrolle ned for at se mere */
     position: absolute;
     z-index: -1;
     margin-top: -20%;
+    display: block;
 }
 
 /* røde bokse med vin */
@@ -760,6 +769,14 @@ specialiteter "Se resten af vores specialiteter" */
     font-style: italic;
     font-size: 10pt;
     margin-bottom: 6%;
+}
+
+.specialiteter_pc {
+    display: none;
+}
+
+#roed_btn_pc {
+    display: none;
 }
 
 /* priser */
@@ -979,6 +996,10 @@ specialiteter "Se resten af vores specialiteter" */
     justify-content: center;
 }
 
+.body_gavekort {
+    background-color: #4C0D0D;
+}
+
 /* --- Gavekort --- */
 .p1_gavekort {
     font-family: montserrat;
@@ -1037,6 +1058,14 @@ specialiteter "Se resten af vores specialiteter" */
     border: none;
 }
 
+.pil_ned {
+    display: none;
+}
+
+.pil_gavekort {
+    display: none;
+}
+
 /* antal gavekort tæller */
 .antal_gavekort_taeller {
     background-color: #F0E5D0;
@@ -1064,6 +1093,8 @@ specialiteter "Se resten af vores specialiteter" */
 .btn_booking_container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-bottom: 12%;
 }
 
 .btn_booking {
@@ -1387,9 +1418,8 @@ video {
 }
 
 /* --- Rose vinkort --- */
-#rose_btn {
-    position: absolute;
-    top: 47%;
+#rose_btn { 
+    margin-top: -2%;
     z-index: 5;
     background-color: #6F3842;
 }
@@ -2275,6 +2305,243 @@ h3 {
         margin-top: 0;
     }
 
+    /* --------------- */
+    /* --- Vinkort --- */
+    /* --------------- */
+
+    /* --- Infographic --- */
+
+    .bigphoto {
+        display: none;
+    }
+
+    #bigphoto_pc {
+        margin-top: -8%;
+    }
+
+    .main_overskrift {
+        text-align: left;
+        margin: 10% 0 5% 3%;
+    }
+
+    #underoverskrift_vinkort {
+        text-align: left;
+        margin: -5% 0 5% 4%;
+    }
+
+    #worldmap {
+        width: 75%;
+        margin: -4% 12% -10%;
+    }
+
+    #pin1, #pin2, #pin3, #pin4, #pin5, #pin6, #pin7, #pin8, #pin9 {
+        width: 2%;
+    }
+
+    #pin1:hover, #pin2:hover, #pin3:hover, #pin4:hover, #pin5:hover, #pin6:hover, #pin7:hover, #pin8:hover, #pin9:hover {
+        width: 2.5%;
+    }
+
+    #pin1 {
+        left: 17%;
+        margin-top: 5%;
+    }
+
+    #pin2 {
+        left: 27%;
+        margin-top: 21%;
+    }
+
+    #pin3 {
+        left: 42%;
+        margin-top: 4%;
+    }
+
+    #pin4 {
+        left: 43%;
+        margin-top: 2%;
+        rotate: -30deg;
+    }
+
+    #pin5 {
+        left: 45%;
+        margin-top: 0;
+    }
+
+    #pin6 {
+        left: 47%;
+        margin-top: 1%;
+        rotate: 30deg;
+    }
+
+    #pin7 {
+        left: 47%;
+        margin-top: 4%;
+        rotate: 70deg;
+    }
+
+    #pin8 {
+        right: 22%;
+        margin-top: 23%;
+    }
+
+    #pin9 {
+        right: 16%;
+        margin-top: 25%;
+    }
+
+    #overlay_container_1 {
+        background-color: #F0E7D0;
+        right: -3%;
+        margin-top: 0;
+        padding: 2% 5.5% 18% 5.5%;
+        box-shadow: 0px 5px 9px 7px rgba(0, 0, 0, 0.25);
+        position: absolute;
+        z-index: 5;
+        display: none;
+        width: 32%;
+    }
+
+    .overlay_p_dobbel {
+        font-weight: 300;
+        width: 70%;
+        margin-top: 7%;
+    }
+
+    /* --- Oversigt vinkort --- */
+    #draabe_vinkort {
+        display: none;
+    }
+
+    .draabe_stor_forside_vinkort {
+        margin: -18% 0px 15%;
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+        display: block;
+    }
+
+    #lille_overskrift {
+    margin-top: 5%;
+    font-size: 52pt;
+    }
+
+    .lille_overskrift {
+        margin-top: 30%;
+        font-size: 38pt;
+    }
+
+    #tilgang_btn_container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 4%;
+    }
+
+    .tilgang_btn_container_div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .tilgang_btn {
+        width: 300px;
+        margin: 20px 30px;
+        padding: 1.5%;
+    }
+
+    /* --- Vinkort indhold --- */
+    #vinkort_underoverskrift {
+        margin-top: 8%;
+    }
+
+    .overskrifter_vinkort {
+        margin-top: 3%;
+        text-align: left;
+        margin-left: 7%;
+        margin-bottom: -5%;
+    }
+
+    .vin_container_pc {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .vin_containere {
+        width: 27%;
+        padding: 3% 2% 2% 2%;
+        margin-bottom: 2%;
+    }
+
+    .flag {
+        width: 2%;
+        position: absolute;
+        right: 68%;
+    }
+
+    #flag2 {
+        right: 38.5%;
+    }
+
+    #flag3 {
+        right: 9%;
+    }
+
+    #vine_3 {
+        margin: 7% 1.2% 0 1.2%;
+    }
+
+    #vine_3_container {
+        justify-content: center;
+        margin-bottom: -5%;
+    }
+
+    #vine_2_container {
+        justify-content: flex-start;
+        margin-bottom: -5%;
+        margin-bottom: 0;
+    }
+
+    #vin_2 {
+        margin-left: -4.5%;
+    }
+
+    #lille_overskrift_23 {
+        margin-top: 7%;
+    }
+
+    /* --- Specialiteter --- */
+    .specialiteter_mobil {
+        display: none;
+    }
+
+    .specialiteter_pc {
+        display: block;
+    }
+
+    .menu_img {
+        width: 100%;
+        padding: 5% 7% 2%;
+    }
+
+    #tilbage_btn_margin {
+        margin: 0 1% -3% 0;
+    }
+
+    #tilbage_btn_margin_sidste {
+        margin: 0 1% 5% 0;
+    }
+
+    #roed_btn_pc {
+        position: relative;
+        top: 0;
+        left: 20%;
+        z-index: 5;
+        background-color: #841414;
+        display: block;
+        margin-top: -5%;
+    }
+
     /* ----------------- */
     /* --- Se stedet --- */
     /* ----------------- */
@@ -2615,6 +2882,10 @@ h3 {
         height: 17%;
     }
 
+    .beige_boks_rose {
+        padding: 5% 5.5% 5% 5.5%;
+    }
+
     .overskrift_beige_boks {
         font-size: 42pt;
         margin-bottom: 1%;
@@ -2722,12 +2993,154 @@ h3 {
 
     /* --- Pink knap --- */
     #rose_btn_pc {
-        position: absolute;
-        top: 48.5%;
+        position: relative;
+        margin-top: -2.5%;
         left: 20%;
         z-index: 5;
         background-color: #6F3842;
         display: block;
+    }
+
+    /* ----------------------- */
+    /* --- Bestil gavekort --- */
+    /* ----------------------- */
+
+    #baggrund_gavekort_pc {
+        top: 50%;
+        height: 80em;
+    }
+
+    #main_overskrift_gavekort {
+        text-align: center;
+        font-size: 48pt;
+        margin: 14% 0 5% 0;
+    }
+
+    .breadcrumbs_con {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .breadcrumbs_container {
+        gap: 5%;
+        width: 25%;
+        margin: -2% -2.5% 0 -2.5%;
+    }
+
+    .breadcrumbs_p {
+        font-weight: 300;
+    }
+
+    #betaling  {
+        margin-left: -7%;
+        margin-right: -7%;
+    }
+
+    .pil_gavekort {
+        width: 20%;
+        display: block;
+    }
+
+    .breadcrumbs_img {
+        width: 9%;
+    }
+
+    .overskrift2 {
+        font-weight: 300;
+        margin: 4% 0 0 0;
+    }
+
+    .p1_gavekort {
+        font-weight: 300;
+        font-size: 11pt;
+        margin: 2% 0;
+    }
+
+    .p2_gavekort {
+        font-weight: 400;
+    }
+
+    #gavekort_btn_container {
+        gap: 2%;
+    }
+
+    .gavekort_btn {
+        font-weight: 300;
+        width: 9%;
+        padding: 1% 0;
+        margin-top: 3%;
+    }
+
+    #form_input {
+        width: 20%;
+        padding: 1%;
+    }
+
+    #form_container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .pil_ned {
+        transform: rotate(90deg);
+        width: 4%;
+        margin-top: 5%;
+        display: block;
+    }
+
+    .antal_gavekort_taeller {
+        width: 12%;
+        padding: 1%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #antal_gavekort_container {
+        margin: 4% 0px;
+    }
+
+    .btn_naeste_annullér {
+        padding: 1% 7%;
+        margin-bottom: 7%;
+    }
+
+    /* ---------------------- */
+    /* --- Gå til booking --- */
+    /* ---------------------- */
+
+    #baggrund_booking {
+        margin-top: -10%;
+        height: 60em;
+    }
+
+    .btn_booking_container {
+        margin-bottom: 5%;
+    }
+    
+    #booking_btn {
+        font-weight: 300;
+        width: 20%;
+        padding: 1.5% 0;
+        margin-top: 3%;
+        margin-bottom: -1.5%;
+    }
+
+    #btn_annullér {
+        padding: 1% 2%;
+    }
+
+    #breadcrumbs_booking {
+        margin: -2% -6% 0 -6%;
+    }
+
+    #breadcrumbs_bekræft {
+        margin: -2% -8% 0 -8%;
+    }
+
+    #pil_book {
+        width: 12%;
     }
 
     /* -------------- */

@@ -123,27 +123,32 @@
 
     <!-- breadcrumbs -->
     <section>
-        <img class="bigphoto" src="img/flaskerkork_mobil.jpg" alt="baggrund">
-        <h3 class="main_overskrift">Booking</h3>
+        <img class="bigphoto" src="img/booking_mobil.jpg" alt="baggrund">
+        <img id="baggrund_booking" class="baggrundsbillede_pc" src="img/booking.jpg" alt="">
+        <h3 id="main_overskrift_gavekort" class="main_overskrift">Booking</h3>
 
         <div class="breadcrumbs_con">
-            <div class="breadcrumbs_container">
+            <div id="breadcrumbs_booking" class="breadcrumbs_container">
                 <img class="breadcrumbs_img" src="img/tag.png" alt="tag">
                 <p class="breadcrumbs_p">Type</p>
+                <img id="pil_book" class="pil_gavekort" src="img/pil_gavekort.png" alt="">
             </div>
-            <div class="breadcrumbs_container">
+            <div id="breadcrumbs_booking" class="breadcrumbs_container">
                 <img class="breadcrumbs_img" src="img/people.png" alt="person">
                 <p class="breadcrumbs_p">Gæster</p>
+                <img id="pil_book" class="pil_gavekort" src="img/pil_gavekort.png" alt="">
             </div>
-            <div class="breadcrumbs_container">
+            <div id="breadcrumbs_booking" class="breadcrumbs_container">
                 <img class="breadcrumbs_img" src="img/calendar.png" alt="kalender">
                 <p class="breadcrumbs_p">Dato</p>
+                <img id="pil_book" class="pil_gavekort" src="img/pil_gavekort.png" alt="">
             </div>
-            <div class="breadcrumbs_container">
+            <div id="breadcrumbs_booking" class="breadcrumbs_container">
                 <img class="breadcrumbs_img" src="img/clock.png" alt="clock">
                 <p class="breadcrumbs_p">Tid</p>
+                <img id="pil_book" class="pil_gavekort" src="img/pil_gavekort.png" alt="">
             </div>
-            <div class="breadcrumbs_container">
+            <div id="breadcrumbs_bekræft" class="breadcrumbs_container">
                 <img class="breadcrumbs_img" src="img/check.png" alt="flueben">
                 <p class="breadcrumbs_p">Bekræft</p>
             </div>
@@ -154,61 +159,71 @@
         <p class="overskrift2">Vælg type</p>
 
         <div class="btn_booking_container">
-            <div>
-                <button class="btn_booking">Wine and dine</button>
-            </div>
-            <div>
-                <button class="btn_booking">Just wine</button>
-            </div>
+            <button id="booking_btn" class="btn_booking">Vin og tapas</button>
+            <button id="booking_btn" class="btn_booking">Kun vin</button>
         </div>
     </section>
 
     <div class="btn_naeste_annullér_container">
-        <button class="btn_naeste_annullér">Annullér en booking</button>
+        <button id="btn_annullér" class="btn_naeste_annullér">Annullér en booking</button>
     </div>
 
-    <!-- footer -->
+    <!-- Footer -->
     <footer class="footer">
-        <p class="overskrift_footer">Plan B vin & tapas</p>
-        <div class="info_container_footer">
-            <div class="container_1_footer">
-                <p>Skriv til os :</p>
-                <p>Adresse :</p>
-                <p>Telefonnummer :</p>
+        <div class="footer_pc">
+            <div class="info_pc">
+                <p class="overskrift_footer">Plan B vin & tapas</p>
+                <div class="info_container_footer">
+                    <div class="container_1_footer">
+                        <p>Skriv til os :</p>
+                        <p>Adresse :</p>
+                        <p>Telefonnummer :</p>
+                    </div>
+                    <div class="container_2_footer">
+                        <p>info@planbvinogtapas.dk</p>
+                        <p>Fredens Torv 2, 8000 Aarhuc C</p>
+                        <p>+45 23 69 30 70</p>
+                    </div>
+                </div>
+                <p class="aabningstider_footer">Åbningstider :</p>
+                <div class="aabningstider_container_footer">
+                    <div class="container_3_footer">
+                        <p>Tirsdag - Torsdag</p>
+                        <p>Fredag - Lørdag</p>
+                        <p>Søndag - Mandag</p>
+                    </div>
+                    <div class="container_4_footer">
+                        <p>16 - 23</p>
+                        <p>15 - 00</p>
+                        <p>Lukket</p>
+                    </div>
+                </div>
+                <p class="koekkenetaabner_footer">Køkkenet åbner fra kl 17.30</p>
             </div>
-            <div class="container_2_footer">
-                <p>info@planbvinogtapas.dk</p>
-                <p>Fredens Torv 2, 8000 Aarhuc C</p>
-                <p>+45 23 69 30 70</p>
-            </div>
-        </div>
-        <p class="aabningstider_footer">Åbningstider :</p>
-        <div class="aabningstider_container_footer">
-            <div class="container_3_footer">
-                <p>Tirsdag - Torsdag</p>
-                <p>Fredag - Lørdag</p>
-                <p>Søndag - Mandag</p>
-            </div>
-            <div class="container_4_footer">
-                <p>16 - 23</p>
-                <p>15 - 00</p>
-                <p>Lukket</p>
-            </div>
-        </div>
-        <p class="koekkenetaabner_footer">Køkkenet åbner fra kl 17.30</p>
-        <div class="maps_container_footer">
-            <p class="findos_footer">Find os her :</p>
-            <div class="maps_image_container">
-            <img class="maps" src="img/maps.png" alt="kort">
+            <div class="maps_container_footer">
+                <div>
+                    <p class="findos_footer">Find os her :</p>
+                </div>
+                <div class="maps_image_container">
+                    <img class="maps" src="img/maps.png" alt="kort">
+                </div>
             </div>
         </div>
         <div class="some_container_footer">
-            <p class="findos_footer">Følg med her :</p>
-            <img class="facebook" src="img/facebook.png" alt="facebook">
-            <img class="instagram" src="img/instagram.png" alt="instagram">
-            <img class="kontrolrapport" src="img/kontrolrapport.png" alt="kontrol rapport">
+            <div>
+                <p>Følg med her :</p>
+            </div>
+            <div class="some_pc">
+                <img class="facebook" src="img/facebook.png" alt="facebook">
+                <img class="instagram" src="img/instagram.png" alt="instagram">
+            </div>
+            <div>
+                <img class="kontrolrapport" src="img/kontrolrapport.png" alt="kontrol rapport">
+            </div>
         </div>
-        <p class="dk_footer">planbvinogtapas.dk</p>
+        <div>
+            <p class="dk_footer">planbvinogtapas.dk</p>
+        </div>
     </footer>
 </body>
 </html>
