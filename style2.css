@@ -634,7 +634,7 @@ h5 {
     padding: 2% 4%;
 }
 
-.minus, .plus, .antal {
+#minus, #plus, #antal {
     color: black;
     border: none;
     background-color: #F0E5D0;

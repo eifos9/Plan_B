@@ -24,9 +24,13 @@ function infovinluk() {
 
 
 
-const minusButtons = document.getElementsByClassName("minus");
-const plusButtons = document.getElementsByClassName("plus");
-const antal = document.getElementsByClassName("antal")[0];
+const minusButtons = document.getElementById("minus");
+const plusButtons = document.getElementById("plus");
+const antal = document.getElementById("antal")[0];
+
+// Da der kun er et antal-element brug [0] for at få det første element
+
+let tal = 0;
 
 // gyudon knap
 
