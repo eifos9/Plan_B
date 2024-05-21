@@ -419,6 +419,674 @@ h4 {
     display: none;
 }
 
+/* --------------- */
+/* --- Vinkort --- */
+/* --------------- */
+
+/* Vinkort underside */
+
+    /* røde pins */    
+    #pin1 {
+        position: absolute;
+        width: 4%;
+        left: 8%;
+        margin-top: 15%;
+    }
+    
+    #pin2 {
+        position: absolute;
+        width: 4%;
+        left: 21%;
+        margin-top: 38%;
+    }
+    #pin3 {
+        position: absolute;
+        width: 4%;
+        left: 40%;
+        margin-top: 18%;
+    }
+    #pin4 {
+        position: absolute;
+        width: 4%;
+        left: 40%;
+        margin-top: 12%;
+        rotate: -30deg;
+    }
+    #pin5 {
+        position: absolute;
+        width: 4%;
+        left: 43%;
+        margin-top: 10%;
+    }
+    #pin6 {
+        position: absolute;
+        width: 4%;
+        left: 46%;
+        margin-top: 12%;
+        rotate: 30deg;
+    }
+    #pin7 {
+        position: absolute;
+        width: 4%;
+        left: 48%;
+        margin-top: 15.5%;
+        rotate: 70deg;
+    }
+    #pin8 {
+        position: absolute;
+        width: 4%;
+        right: 14.5%;
+        margin-top: 40%;
+    }
+    #pin9 {
+        position: absolute;
+        width: 4%;
+        right: 7%;
+        margin-top: 43%;
+    }
+    
+        /* hover effekt til alle pins */
+    #pin1:hover, #pin2:hover, #pin3:hover, #pin4:hover, #pin5:hover, #pin6:hover, #pin7:hover, #pin8:hover, #pin9:hover {
+        width: 5%;
+    }
+    
+        /* overlays */
+    #overlay_container_1 {
+        background-color: #F0E7D0 ;
+        margin: 7%;
+        margin-top: -10%;
+        padding: 8% 5.5% 30% 5.5%;
+        box-shadow: 0px 5px 9px 7px rgba(0, 0, 0, 0.25);
+        position: absolute;
+        z-index: 5;
+        display: none;
+    }
+    
+    h5 {
+        font-family: Snell Roundhand Script, serif;
+        color: #3F0A0A;
+        font-size: 25pt;
+        font-weight: lighter;
+        text-align: center;
+        margin-bottom: 10%;
+        margin-top: 4%;
+    }
+    
+    .overlay_p {
+        font-weight: 200;
+        font-size: 9pt;
+        width: 55%;
+        line-height: 320%;
+    }
+    
+    .overlay_p_dobbel {
+        font-weight: 200;
+        font-size: 9pt;
+        width: 55%;
+        margin-top: 3%;
+    }
+    
+    .overlay_vin {
+        width: 29%;
+        position: absolute;
+        right: 10%;
+        top: 28%;
+    }
+    
+    
+    
+    #worldmap {
+        width: 96%;
+        margin: 7% 2% -10% 2%;
+    }
+    
+    .body_vinkort {
+        background-color: #590F0F ;
+    }
+    
+    .lille_overskrift {
+        font-family: Snell Roundhand Script, serif;
+        color: #F0E7D0;
+        font-weight: lighter;
+        font-size: 23pt;
+        text-align: center;
+        margin-top: 17%;
+        margin-bottom: 1%;
+    }
+    
+    .tilgang_btn {
+        background-color: #841414;
+        border: none;
+        border-radius: 0.1875rem;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        color: #F0E7D0;
+        font-family: montserrat;
+        font-weight: 200;
+        font-size: 14pt;
+        width: 82%;
+        margin: 2% 0%;
+        padding: 5% 0;
+    }
+    
+    #tilgang_btn_container {
+        margin-top: 8%;
+    }
+    
+    .tilgang_btn_container_div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #draabe_vinkort {
+        width: 100%;
+        margin-bottom: -10%;
+        margin-top: -16.7%;
+        z-index: 1;
+        position: relative;
+    }
+    
+    #lille_overskrift {
+        font-family: Snell Roundhand Script, serif;
+        color: #F0E7D0;
+        font-weight: lighter;
+        font-size: 30pt;
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: -5.5%;
+        position: relative;
+        z-index: 3;
+    }
+    
+    #pil_scroll_container {
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+        width: 100%;
+    }
+    
+    #pil_scroll {
+        margin-bottom: 8%;
+        animation: scrollpil 2s infinite;
+    }
+    
+        /* animation der bevæger pilen nedad og øger opacity for at indikere at man skal scrolle ned for at se mere */
+    @keyframes scrollpil {
+        0% {opacity: 0;}
+        25% {opacity: 0.3; transform: translateY(25px);}
+        50% {opacity: 0.8; transform: translateY(25px);}
+        100% {opacity: 1; transform: translateY(25px);}
+    }
+    
+    .main_overskrift {
+        font-size: 30pt;
+        font-family: Snell Roundhand Script;
+        margin-top: 30%;
+    }
+    
+    #underoverskrift_vinkort {
+        color: white;
+        text-align: center;
+        font-weight: lighter;
+        margin-top: 7%;
+        font-size: 13pt;
+        line-height: 155%;
+    }
+    
+    .bigphoto {
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        margin-top: -20%;
+    }
+    
+    /* røde bokse med vin */
+    
+    .vin_flasker_img {
+        width: 5.5em;
+        margin-bottom: 14%;
+    }
+    
+    .flag {
+        width: 6%;
+        position: absolute;
+        right: 15%;
+    }
+    
+    .navn_vin {
+        color: #F0E5D0;
+        font-size: 9pt;
+        font-style: italic;
+        margin-bottom: 4.5%;
+        line-height: 130%;
+    }
+    
+    .beskrivelse_vin {
+        color: #F0E5D0;
+        font-size: 10pt;
+        font-style: italic;
+        line-height: 130%;
+        font-weight: 100;
+    }
+    
+    .vin_containere {
+        background-color: #3F0A0A ;
+        margin: 7%;
+        padding: 8% 5.5% 5% 5.5%;
+    }
+    
+    .img_flaske_container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .overskrifter_vinkort {
+        font-family: Snell Roundhand Script, serif;
+        color: #E7B129;
+        font-size: 32pt;
+        margin-top: 18%;
+        font-weight: lighter;
+        text-align: center;
+    }
+    
+    
+    /* sektion med vinkort over plan b's andre specialiteter "se resten af vores specialiteter" */
+    
+    .beige_boks {
+        background-color: #DED2BC ;
+        margin: 7%;
+        padding: 8% 5.5% 5% 5.5%;
+    }
+    
+    .overskrift_beige_boks {
+        font-size: 35pt;
+        font-family: 'Futura Condensed PT', sans-serif;
+        font-weight: 200;
+        text-align: center;
+        margin-bottom: 4.5%;
+    }
+    
+    .underoverkrift1_beige_boks {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .underoverskrifter_beige_boks {
+        font-family: 'Futura Condensed PT', sans-serif;
+        font-weight: 200;
+        font-size: 17pt;
+    }
+    
+    .pris_underoverskrift_beige_boks {
+        font-family: montserrat;
+        font-weight: 400;
+        font-size: 11pt;
+        font-style: italic;
+        display: flex;
+        justify-content: right;
+        align-items: end;
+    }
+    
+    .container1_beige_boks {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Futura Condensed PT', sans-serif;
+        font-weight: lighter;
+        font-size: 14pt;
+        margin-top: 3%;
+        margin-bottom: 13%;
+        line-height: 170%;
+    }
+    
+    .beskrivelse_tekst {
+        font-family: montserrat;
+        font-style: italic;
+        font-size: 10pt;
+        margin-top: -6%;
+        margin-bottom: 6%;
+    }
+    
+    .beskrivelse_tekst2 {
+        font-family: montserrat;
+        font-style: italic;
+        line-height: 120%;
+        font-size: 10pt;
+        margin-bottom: 6%;
+        max-width: 95%;
+    }
+    
+    #saesonensvin_pris {
+        font-family: montserrat;
+        font-style: italic;
+        font-size: 10pt;
+        margin-bottom: 6%;
+    }
+    
+    
+    
+    /* priser */
+    
+    .container2_beige_boks {
+        display: flex;
+        flex-direction: column;
+        font-family: montserrat;
+        font-weight: 300;
+        font-size: 11pt;
+        margin-top: 4.9%;
+        font-style: italic;
+        gap: 12.5%;
+    }
+    
+    .container2_beige_boks_midt {
+        display: flex;
+        flex-direction: column;
+        font-family: montserrat;
+        font-weight: 300;
+        font-size: 11pt;
+        margin-top: 6%;
+        font-style: italic;
+        gap: 12.5%;
+    }
+    
+    .container_beige_boks {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .container2_beige_boks_sidste {
+        display: flex;
+        font-family: montserrat;
+        font-weight: 300;
+        font-size: 11pt;
+        font-style: italic;
+        gap: 11%;
+        flex-direction: column;
+        margin-top: 11%;
+        padding: 1.5%;
+    }
+    
+    .minus_lineheight {
+        margin-top: -4.5%;
+    }
+    
+    #special_pris {
+        margin-top: 21%;
+    }
+    
+    #special_pris2 {
+        margin-top: 21%;
+    }
+    
+    .container23_beige_boks {
+        display: flex;
+        flex-direction: column;
+        font-family: montserrat;
+        font-weight: 300;
+        font-size: 11pt;
+        margin-top: 4.9%;
+        font-style: italic;
+        gap: 5%;
+    }
+    
+    .container24_beige_boks {
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+        font-family: montserrat;
+        font-weight: 300;
+        font-size: 11pt;
+        margin-top: 4.9%;
+        font-style: italic;
+        gap: 14.5%;
+        width: 20%;
+    }
+    
+    .container25_beige_boks {
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+        font-family: montserrat;
+        font-weight: 300;
+        font-size: 11pt;
+        margin-top: 4.9%;
+        font-style: italic;
+        gap: 25.8%;
+        width: 50%;
+    }
+    
+    .container26_beige_boks {
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+        font-family: montserrat;
+        font-weight: 300;
+        font-size: 11pt;
+        margin-top: 4.9%;
+        font-style: italic;
+        gap: 16.3%;
+    }
+    
+    #pris_17 {
+        margin-top: 30%;
+    }
+    
+    #pris_18 {
+        margin-top: 38%;
+    }
+    
+        /* priser på kult bar rødvin*/
+    #pris_2 {
+        margin-top: -1.5%;
+    }
+    #pris_3 {
+        margin-top: -6%;
+    }
+    #pris_4, #pris_5, #pris_6, #pris_7, #pris_8, #pris_9, #pris_10, #pris_11, #pris_12, #pris_13, #pris_14, #pris_15 {
+        margin-top: -3.7%;
+    }
+    
+    #pris_16 {
+        margin-top: 14.5%;
+    }
+    
+    
+    
+    
+    /* alle "gå til booking" knapper */
+    .booking_btn {
+        background-color: #841414;
+        border: none;
+        border-radius: 0.1875rem;
+        color: #F0E7D0;
+        font-family: montserrat;
+        font-weight: 300;
+        font-size: 12pt;
+        padding: 4% 14%;
+    }
+    
+    .booking_btn_container {
+        display: flex;
+        justify-content: center;
+        margin-top: -13%;
+    }
+    
+    
+    
+    
+    /* alle "tilbage til toppen" knapper */
+    .tilbage_btn {
+        background-color: #841414;
+        border: none;
+        border-radius: 0.1875rem;
+        color: #F0E7D0;
+        font-family: montserrat;
+        font-weight: 300;
+        font-size: 12pt;
+        padding: 3% 8%;
+    }
+    
+    .tilbage_btn_container {
+        display: flex;
+        justify-content: center;
+        margin-top: 8%;
+        margin-bottom: 9%;
+    }
+    
+    /* gavekort underside + booking */
+        /* fælles */
+    .breadcrumbs_img {
+        width: 7%;
+    }
+    
+    .breadcrumbs_p {
+        color: white;
+        font-size: 13pt;
+        font-weight: 200;
+    }
+    
+    .breadcrumbs_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+        margin-top: 5%;
+    }
+    
+    .breadcrumbs_con {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .overskrift2 {
+        font-family: montserrat;
+        font-weight: 200;
+        font-size: 18pt;
+        color: white;
+        text-align: center;
+        margin: 10% 0 4% 0;
+    }
+    
+    .btn_naeste_annullér {
+        background-color: #4D0C0C;
+        border: none;
+        padding: 2.5% 10%;
+        color: #FFF8EA;
+        font-family: montserrat;
+        font-size: 12pt;
+        font-weight: 200;
+        margin-bottom: 15%;
+        border-radius: 0.1875rem;
+    }
+    
+    .btn_naeste_annullér_container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+        /* gavekort */
+    .p1_gavekort {
+        font-family: montserrat;
+        font-weight: 200;
+        font-size: 10pt;
+        color: white;
+        text-align: center;
+        margin: 3% 0;
+    }
+    
+    .p2_gavekort {
+        font-family: montserrat;
+        font-weight: 200;
+        font-size: 12pt;
+        color: white;
+        text-align: center;
+        width: 60%;
+    }
+    
+    .p_container_gavekort {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #gavekort_btn_container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5%;
+    }
+    
+    .gavekort_btn {
+        background-color: #6E1010;
+        border: none;
+        color: #FFF8EA;
+        font-family: montserrat;
+        font-size: 12pt;
+        font-weight: 200;
+        width: 35%;
+        padding: 4% 0;
+        margin-top: 8%;
+        border-radius: 0.1875rem;
+    }
+    
+    #form_container {
+        display: flex;
+        justify-content: center ;
+        margin-top: 10%;
+    }
+    
+    #form_input {
+        width: 60%;
+        padding: 2% 2%;
+        color: #acacac;
+        border: none;
+    }
+    
+            /* antal gavekort tæller */
+    .antal_gavekort_taeller {
+        background-color: #F0E5D0;
+        width: 28%;
+        padding: 2% 4%;
+    }
+    
+    #minus, #plus, #antal {
+        color: black;
+        border: none;
+        background-color: #F0E5D0;
+        font-size: 20pt;
+        font-family: montserrat;
+        font-weight: 200;
+        margin: 0 5%;
+    }
+    
+    #antal_gavekort_container {
+        display: flex;
+        justify-content: center;
+        margin: 10% 0;
+    }
+    
+        /* booking */
+    .btn_booking_container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .btn_booking {
+        background-color: #6E1010;
+        border: none;
+        padding: 4% 0;
+        color: white;
+        font-family: montserrat;
+        font-weight: 200;
+        font-size: 12pt;
+        width: 60%;
+        margin-top: 5%;
+        border-radius: 0.1875rem;
+    }
+
 /* -------------------*/
 /* ---- Se stedet --- */
 /* ------------------ */
