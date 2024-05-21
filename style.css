@@ -618,7 +618,7 @@ video {
 }
 
 .mysterywine_img_intro {
-    width: 70%;
+    width: 60%;
     margin: 20% 0;
 }
 
@@ -800,7 +800,7 @@ video {
 }
 
 .upcoming_events {
-    background-image: url(img/insta_runningclub_mobil.png);
+    background-image: url(img/insta_runningclub_mobil.jpg);
     background-size: 100%;
     height: 55em;
     margin-top: -10%;
@@ -1811,8 +1811,8 @@ h3 {
     /* -------------------- */
 
     .mysterywine_img_intro {
-        width: 50%;
-        margin: 15% 0;
+        width: 35%;
+        margin: 15% 0 20% 0;
     }
 
     #beige_wave_mw {
@@ -1988,7 +1988,7 @@ h3 {
     }
 
     #upcoming_events_pc {
-        background-image: url(img/insta_runningclub.png);
+        background-image: url(img/insta_runningclub.jpg);
         height: 82em;
         margin-top: -23%;
         padding-top: 50%;
