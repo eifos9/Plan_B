@@ -1,4 +1,4 @@
-const galleribillede = Array.from(document.querySelectorAll(".billedgalleri"));
+/*const galleribillede = Array.from(document.querySelectorAll(".billedgalleri"));
 const pil_h = document.getElementById("pil_h");
 const pil_v = document.getElementById("pil_v");
 
@@ -42,13 +42,13 @@ function tilbage(){
     galleribillede[0].style.display = "block";
 }
 
-
+*/
 
 // antal gavekort
 
 const minusButtons = document.getElementById("minus");
 const plusButtons = document.getElementById("plus");
-const antal = document.getElementById("antal")[0];
+const antal = document.getElementById("antal");
 
 // Da der kun er et antal-element brug [0] for at få det første element
 
@@ -62,9 +62,7 @@ function opdaterAntal() {
   }
   
   // Event listener - minus-knap:
-  for (let i = 0; i < minusButtons.length; i++) {
-    minusButtons[i].addEventListener("click", traekfra);
-  }
+  minusButtons.onclick = traekfra;
   
   // Event handler - trækker fra, men ikke mindre end 0:
   function traekfra() {
@@ -75,14 +73,13 @@ function opdaterAntal() {
   }
   // Event listener - plus-knapperne:
   
-  for (let i = 0; i < plusButtons.length; i++) {
-    plusButtons[i].addEventListener("click", laegtil);
-  }
+  plusButtons.onclick = laegtil;
   
   // Event handler - lægger til, men ikke mere end 6:
   function laegtil() {
-    if (tal < 6) {
+    if (tal < Infinity) {
       tal++;
       opdaterAntal();
     }
+    
   }

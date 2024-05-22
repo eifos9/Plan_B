@@ -275,7 +275,6 @@ header {
     width: 55%;
     padding: 10% 5%;
     margin: 5%;
-    transition: opacity 1.5s;
 }
 
 .cirkel_info {
@@ -284,7 +283,6 @@ header {
     border-radius: 50%;
     background-color: #3F0A0A;
     display: inline-block;
-    transition: opacity 1.5s;
 }
 
 .vertikal_streg_info {
@@ -293,7 +291,6 @@ header {
     background-color: #3F0A0A;
     display: inline-block;
     margin-bottom: -5%;
-    transition: opacity 1.5s;
 }
 
 .vertikal_streg_info_2 {
@@ -303,6 +300,9 @@ header {
     display: inline-block;
     margin-bottom: -5%;
     margin-top: -5%;
+}
+
+.cirkel_info, .vertikal_streg_info, .vertikal_streg_info_2, .champagne_info_boks, .info_1, .info_2, .info_3 {
     transition: opacity 1.5s;
 }
 
@@ -1676,6 +1676,84 @@ h3 {
     justify-content: center;
     margin-top: 8%;
     margin-bottom: 9%;
+}
+
+/* ----------------- */
+/* --- Tapasmenu --- */
+/* ----------------- */
+
+#lys_tekst_header_tapas {
+    text-align: center;
+    font-size: 12pt;
+    margin: 0 -16% 12% -16%;
+}
+
+.tapas_img {
+    width: 100%;
+    display: block;
+}
+
+#beige_boks_tapas {
+    position: relative;
+    z-index: 7;
+}
+
+#beige_wave_tapas {
+    height: 50em;
+    margin-top: -165%;
+    z-index: -1;
+}
+
+.ikon_tapas {
+    width: 48px;
+    height: 45px;
+    margin: 45px 0;
+}
+
+.ikoner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 12% 0 12% 0;
+}
+
+.ikon_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.ikon_con {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.allegene_tekst {
+    color: #F0E5D0;
+    font-family: 'Futura Condensed PT', sans-serif;
+    font-size: 16pt;
+}
+
+#tapasmenu_img_stor {
+    display: none;
+}
+
+/* ----------------- */
+/* --- Not Found --- */
+/* ----------------- */
+
+.baggrundsbillede_notfound {
+    display: none;
+}
+
+#tilbage_forside_404 {
+    display: flex;
+    justify-content: center;
+    margin-top: -25%;
+    margin-bottom: 35%;
 }
 
 /* -------------- */
@@ -3141,6 +3219,78 @@ h3 {
 
     #pil_book {
         width: 12%;
+    }
+
+    /* ----------------- */
+    /* --- Tapasmenu --- */
+    /* ----------------- */
+    .ikoner {
+        flex-direction: row;
+        justify-content: center;
+        margin: 3% 0 7% 0;
+    }
+
+    .ikon_con {
+        width: 42%;
+    }
+
+    .ikon_tapas {
+        margin: 55px 0;
+    }
+
+    .tapas_img {
+        display: none;
+    }
+
+    #beige_wave_tapas {
+        display: none;
+    }
+
+    #beige_boks_tapas_pc {
+        display: none;
+    }
+
+    #lys_tekst_header_tapas {
+        margin: 18% 5% 0 5%;
+    }
+
+    #beige_wave_tapas_stor {
+        margin-top: -20%;
+        height: 60em;
+    }
+
+    #menu_tapas_pc {
+        position: absolute;
+        z-index: 7;
+        margin-top: 15%;
+    }
+
+    .menu_snacks_pc {
+        margin-top: 20%;
+    }
+
+    #tapasmenu_img_stor {
+        display: block;
+    }
+
+    /* ----------------- */
+    /* --- Not Found --- */
+    /* ----------------- */
+
+    .baggrundsbillede_notfound {
+        width: 100%;
+        display: block;
+        position: absolute;
+        z-index: -1;
+        margin-top: -20%;
+    }
+
+    #tilbage_forside_404 {
+        display: flex;
+        justify-content: center;
+        margin-top: -25%;
+        margin-bottom: 15%;
+        width: 100%;
     }
 
     /* -------------- */

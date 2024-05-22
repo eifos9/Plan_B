@@ -3,116 +3,265 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Plan B | Tapasmenu</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <!-- JavaScript -->
+    <script src="javascript/burgermenu.js" defer></script>
+    <!-- Font Snell Roundhand -->
     <link href="https://db.onlinewebfonts.com/c/31ed0189fe1ff1e740a652e0f75b77dc?family=Snell+Roundhand+Script" rel="stylesheet">
+    <!-- Font Montserrat -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Font Futura Condensed -->
+    <link href="https://fonts.cdnfonts.com/css/futura-condensed-pt" rel="stylesheet">
 </head>
-<body>
+<body class="body_gavekort">
 
-    <!-- Header -->
-    <header>
+        <!-- Header -->
+        <header>
 
-    <!-- Burgermenuikon Mobil -->
-        <div class="header_mobil">
-            <div class="burgermenu_container">
-                <img id="burgermenu" src="img/menu.png" alt="burgermenu">
-            </div>
-        </div>
-            
-    
-    <!-- Pc navigation -->
-        <nav class="dropdown_menu">
-
-            <div class="menu_venstre">
-
-                <div class="dropdown">
-                    <button class="dropdown_btn">Book bord</button>
-                    <div class="dropdown_indhold_pc">
-                        <a href="">Gå til booking</a>
+            <!-- Burgermenuikon Mobil -->
+                <div class="header_mobil">
+                    <div class="burgermenu_container">
+                        <img id="burgermenu" src="img/menu.png" alt="burgermenu">
                     </div>
                 </div>
                 
-                <div class="dropdown"> 
-                    <button class="dropdown_btn">Events</button>
-                    <div class="dropdown_indhold_pc">
-                        <a href="">Upcoming events</a>
-                        <a href="">Se stedet</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="menu_hoejre">
-
-                <div class="dropdown">  
-                    <button class="dropdown_btn">Menu</button>
-                    <div class="dropdown_indhold_pc">
-                        <a href="">Vinkort</a>
-                        <a href="">Tapasmenu</a>
-                        <a href="">Mystery Wine</a>
-                    </div>
-                </div>
-
-                <div class="dropdown"> 
-                    <button class="dropdown_btn">Gavekort</button>
-                    <div class="dropdown_indhold_pc">
-                        <a href="">Bestil gavekort</a> 
-                    </div> 
-                </div>
-
-            </div>
-
-        </nav>
-
-        <!-- Logo -->
-        <div class="logo_container">
-
-        <!-- Logo Mobil -->
-            <img class="logo" src="img/logoPlanB.png" alt="logo">
-    
-        <!-- Logo Pc -->
-            <img class="logo_pc" src="img/logoPlanB.png" alt="logo">
-    
-        </div>
         
-        <!-- Mobil navigation -->
-        <nav>
-            <div id="menu_container">
-                <div>
-                    <button class="menubtn">Book bord</button>
-                    <div class="dropdown_indhold">
-                        <a href="">Gå til booking</a>
+            <!-- Pc navigation -->
+                <nav class="dropdown_menu">
+                    
+                    <div class="menu_venstre">
+        
+                        <div class="dropdown">
+                            <button class="dropdown_btn">Book bord</button>
+                            <div class="dropdown_indhold_pc">
+                                <a href="">Gå til booking</a>
+                            </div>
+                        </div>
+                        
+                        <div class="dropdown"> 
+                            <button class="dropdown_btn">Events</button>
+                            <div class="dropdown_indhold_pc">
+                                <a href="">Upcoming events</a>
+                                <a href="sestedet.html">Se stedet</a>
+                            </div>
+                        </div>
+        
+                    </div>
+        
+                    <div class="menu_hoejre">
+        
+                        <div class="dropdown">  
+                            <button class="dropdown_btn">Menu</button>
+                            <div class="dropdown_indhold_pc">
+                                <a href="">Vinkort</a>
+                                <a href="">Tapasmenu</a>
+                                <a href="">Mystery Wine</a>
+                            </div>
+                        </div>
+        
+                        <div class="dropdown"> 
+                            <button class="dropdown_btn">Gavekort</button>
+                            <div class="dropdown_indhold_pc">
+                                <a href="">Bestil gavekort</a> 
+                            </div> 
+                        </div>
+        
+                    </div>
+                    
+                </nav>
+        
+            <!-- Logo -->
+                <div class="logo_container">
+        
+            <!-- Logo Mobil -->
+                    <a href="index.html"><img class="logo" src="img/logoPlanB.png" alt="logo"></a>
+                    
+        
+            <!-- Logo Pc -->
+            
+                    <a class="a_logo" href="index.html"><img class="logo_pc" src="img/logoPlanB.png" alt="logo"></a>
+            
+                </div>
+                
+            <!-- Mobil navigation -->
+                <nav>
+                    <div id="menu_container">
+                        <div>
+                            <button class="menubtn">Book bord</button>
+                            <div class="dropdown_indhold">
+                                <a href="">Gå til booking</a>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="menubtn">Events</button>
+                            <div class="dropdown_indhold">
+                                <a href="">Upcoming events</a>
+                                <a href="sestedet.html">Se stedet</a>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="menubtn">Menu</button>
+                            <div class="dropdown_indhold">
+                                <a href="">Vinkort</a>
+                                <a href="">Tapasmenu</a>
+                                <a href="">Mystery Wine</a>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="menubtn">Gavekort</button>
+                            <div class="dropdown_indhold">
+                                <a href="">Bestil gavekort</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+        
+        </header>
+
+        <main>
+            <img class="baggrund_forside" src="img/korkprobber_mobil.jpg" alt="">
+            <img class="baggrundsbillede_pc" src="img/korkprobber.jpg" alt="">
+            <section>
+                <div class="h1_container">
+                    <h1 id="h1_stor" class="lys_tekst">Tapasmenu</h1>
+                    <p id="lys_tekst_header_tapas" class="lys_tekst">Køkkenet åbner kl 17.30 tirsdag-lørdag
+                    <br>
+                    <br>
+                        Søndag-mandag har vi lukket</p>
+                </div>
+                
+            </section>
+
+            <section  id="beige_boks_tapas">
+                <div id="beige_boks_tapas_pc" class="beige_boks">
+                    <img class="tapas_img" src="img/tapasmenu_mobil.png" alt="">
+                </div>
+    
+                <div class="booking_btn_container">
+                    <button class="booking_btn">Gå til vinkort</button>
+                </div>
+                <div  id="menu_tapas_pc">
+                    <img id="tapasmenu_img_stor" class="menu_img" src="img/tapasmenu.png" alt="">
+                    <button id="roed_btn_pc" class="booking_btn">Gå til vinkort</button>
+                </div>
+                
+                <img id="beige_wave_tapas" class="beige_wave" src="img/lille_beige_rose.png" alt="">
+                <img id="beige_wave_tapas_stor" class="beige_wave_stor" src="img/champagne_stor.png" alt="">
+            </section>
+
+            <section>
+                <div id="beige_boks_tapas_pc" class="beige_boks">
+                    <img class="tapas_img" src="img/snacks_mobil.png" alt="">
+                </div>
+    
+                <div class="booking_btn_container">
+                    <button class="booking_btn">Gå til vinkort</button>
+                </div>
+                <div class="menu_snacks_pc">
+                    <img id="tapasmenu_img_stor" class="menu_img" src="img/snacks.png" alt="">
+                    <button id="roed_btn_pc" class="booking_btn">Gå til vinkort</button>
+                </div>
+                
+            </section>
+
+            <section class="ikoner">
+                <div class="ikon_con">
+                    <div class="ikon_div">
+                        <img class="ikon_tapas" src="img/koed.png" alt="">
+                        <p class="allegene_tekst">KØD</p>
+                    </div>
+                    <div class="ikon_div">
+                        <img class="ikon_tapas" src="img/fisk.png" alt="">
+                        <p class="allegene_tekst">FISK</p>
+                    </div>
+                    <div class="ikon_div">
+                        <img class="ikon_tapas" src="img/oekologisk.png" alt="">
+                        <p class="allegene_tekst">ØKOLOGISK</p>
                     </div>
                 </div>
-                <div>
-                    <button class="menubtn">Events</button>
-                    <div class="dropdown_indhold">
-                        <a href="">Upcoming events</a>
-                        <a href="">Se stedet</a>
+                <div class="ikon_con">
+                    <div class="ikon_div">
+                        <img class="ikon_tapas" src="img/gluten.png" alt="">
+                        <p class="allegene_tekst">GLUTEN</p>
+                    </div>
+                    <div class="ikon_div">
+                        <img class="ikon_tapas" src="img/maelk.png" alt="">
+                        <p class="allegene_tekst">LAKTOSE</p>
+                    </div>
+                    <div class="ikon_div">
+                        <img class="ikon_tapas" src="img/noedder.png" alt="">
+                        <p class="allegene_tekst">NØDDER</p>
                     </div>
                 </div>
-                <div>
-                    <button class="menubtn">Menu</button>
-                    <div class="dropdown_indhold">
-                        <a href="">Vinkort</a>
-                        <a href="">Tapasmenu</a>
-                        <a href="">Mystery Wine</a>
+                
+                
+            </section>
+                
+            
+
+        </main>
+
+        <!-- Footer -->
+    <footer class="footer">
+        <div class="footer_pc">
+            <div class="info_pc">
+                <p class="overskrift_footer">Plan B vin & tapas</p>
+                <div class="info_container_footer">
+                    <div class="container_1_footer">
+                        <p>Skriv til os :</p>
+                        <p>Adresse :</p>
+                        <p>Telefonnummer :</p>
+                    </div>
+                    <div class="container_2_footer">
+                        <p>info@planbvinogtapas.dk</p>
+                        <p>Fredens Torv 2, 8000 Aarhuc C</p>
+                        <p>+45 23 69 30 70</p>
                     </div>
                 </div>
-                <div>
-                    <button class="menubtn">Gavekort</button>
-                    <div class="dropdown_indhold">
-                        <a href="">Bestil gavekort</a>
+                <p class="aabningstider_footer">Åbningstider :</p>
+                <div class="aabningstider_container_footer">
+                    <div class="container_3_footer">
+                        <p>Tirsdag - Torsdag</p>
+                        <p>Fredag - Lørdag</p>
+                        <p>Søndag - Mandag</p>
                     </div>
+                    <div class="container_4_footer">
+                        <p>16 - 23</p>
+                        <p>15 - 00</p>
+                        <p>Lukket</p>
+                    </div>
+                </div>
+                <p class="koekkenetaabner_footer">Køkkenet åbner fra kl 17.30</p>
+            </div>
+            <div class="maps_container_footer">
+                <div>
+                    <p class="findos_footer">Find os her :</p>
+                </div>
+                <div class="maps_image_container">
+                    <img class="maps" src="img/maps.png" alt="kort">
                 </div>
             </div>
-        </nav>
-    
-        </header>
+        </div>
+        <div class="some_container_footer">
+            <div>
+                <p>Følg med her :</p>
+            </div>
+            <div class="some_pc">
+                <img class="facebook" src="img/facebook.png" alt="facebook">
+                <img class="instagram" src="img/instagram.png" alt="instagram">
+            </div>
+            <div>
+                <img class="kontrolrapport" src="img/kontrolrapport.png" alt="kontrol rapport">
+            </div>
+        </div>
+        <div>
+            <p class="dk_footer">planbvinogtapas.dk</p>
+        </div>
+    </footer>
     
         
 
