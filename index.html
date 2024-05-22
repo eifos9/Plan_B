@@ -39,14 +39,14 @@
                 <div class="dropdown">
                     <button class="dropdown_btn">Book bord</button>
                     <div class="dropdown_indhold_pc">
-                        <a href="">Gå til booking</a>
+                        <a href="gaatilbooking.html">Gå til booking</a>
                     </div>
                 </div>
                 
                 <div class="dropdown"> 
                     <button class="dropdown_btn">Events</button>
                     <div class="dropdown_indhold_pc">
-                        <a href="">Upcoming events</a>
+                        <a href="upcomingevents.html">Upcoming events</a>
                         <a href="sestedet.html">Se stedet</a>
                     </div>
                 </div>
@@ -58,16 +58,16 @@
                 <div class="dropdown">  
                     <button class="dropdown_btn">Menu</button>
                     <div class="dropdown_indhold_pc">
-                        <a href="">Vinkort</a>
-                        <a href="">Tapasmenu</a>
-                        <a href="">Mystery Wine</a>
+                        <a href="vinkort.html">Vinkort</a>
+                        <a href="tapasmenu.html">Tapasmenu</a>
+                        <a href="mysterywine.html">Mystery Wine</a>
                     </div>
                 </div>
 
                 <div class="dropdown"> 
                     <button class="dropdown_btn">Gavekort</button>
                     <div class="dropdown_indhold_pc">
-                        <a href="">Bestil gavekort</a> 
+                        <a href="bestilgavekort.html">Bestil gavekort</a> 
                     </div> 
                 </div>
 
@@ -94,28 +94,28 @@
                 <div>
                     <button class="menubtn">Book bord</button>
                     <div class="dropdown_indhold">
-                        <a href="">Gå til booking</a>
+                        <a href="gaatilbooking.html">Gå til booking</a>
                     </div>
                 </div>
                 <div>
                     <button class="menubtn">Events</button>
                     <div class="dropdown_indhold">
-                        <a href="">Upcoming events</a>
+                        <a href="upcomingevents.html">Upcoming events</a>
                         <a href="sestedet.html">Se stedet</a>
                     </div>
                 </div>
                 <div>
                     <button class="menubtn">Menu</button>
                     <div class="dropdown_indhold">
-                        <a href="">Vinkort</a>
-                        <a href="">Tapasmenu</a>
-                        <a href="">Mystery Wine</a>
+                        <a href="vinkort.html">Vinkort</a>
+                        <a href="tapasmenu.html">Tapasmenu</a>
+                        <a href="mysterywine.html">Mystery Wine</a>
                     </div>
                 </div>
                 <div>
                     <button class="menubtn">Gavekort</button>
                     <div class="dropdown_indhold">
-                        <a href="">Bestil gavekort</a>
+                        <a href="bestilgavekort.html">Bestil gavekort</a>
                     </div>
                 </div>
             </div>
@@ -126,6 +126,7 @@
     <!-- Main -->
     <main>
 
+    <!-- Baggrundsbilleder til mobil og pc -->
         <img class="baggrund_forside" src="img/flaskertop_mobil.JPG" alt="">
         <img class="baggrundsbillede_pc" src="img/flaskertop.jpg" alt="">
 
@@ -133,7 +134,6 @@
         <section class="intro_forside">
 
             <div>
-                <!--<img class="intro_billede" src="img/druen.png" alt="">-->
                 <video id="video_forside" src="video/PlanB.mp4" autoplay loop muted></video>
             </div>
             <div class="intro_flex">
@@ -158,15 +158,16 @@
                         venner, kærester osv.</p>
                 </div>
                 
-                    <button id="booking_btn_forside">Book bord</button>
+    <!-- Hyperlink stylet som knap -->                
+                <a id="booking_btn_forside" href="gaatilbooking.html">Book bord</a>
                 
             </div>
             
         </section>
 
-    <!-- Knap Book bord -->
+    <!-- Hyperlink stylet som knap -->
         <div class="booking_btn_container">
-            <button class="booking_btn">Book bord</button>
+            <a class="booking_btn" href="gaatilbooking.html">Book bord</a>
         </div>
 
     <!-- Mystisk tirsdag -->
@@ -191,18 +192,20 @@
                     </p>
                 </div>
             </div>
+
+    <!-- Hyperlink stylet som knap -->        
+            <a class="læsmere_btn_forside" href="mysterywine.html">Læs mere</a>
             
-            <button class="læsmere_btn_forside">Læs mere</button>
-            
+    <!-- Fodspor -->
             <div>
                 <img class="fodspor_forside" src="img/fodspor.png" alt="">
             </div>
             
         </section>
 
-    <!-- Knap Læs mere -->
+    <!-- Hyperlink stylet som knap -->
         <div class="læsmere_btn_container">
-            <button class="læsmere_btn">Læs mere</button>
+            <a class="læsmere_btn" href="mysterywine.html">Læs mere</a>
         </div>
 
     <!-- Mobil Personalets favorit -->
@@ -234,14 +237,14 @@
                         </div>
                     </div>
 
-    <!-- Knap Se vores vinkort -->
+    <!-- Hyperlink stylet som knap -->
                     <div class="sevoresvinkort_btn_container">
-                        <button class="sevoresvinkort_btn">Se vores vinkort</button>
+                        <a class="sevoresvinkort_btn" href="vinkort.html">Se vores vinkort</a>
                     </div>
                 </div>
             </div>
 
-    <!-- Beige bølgende baggrund -->
+    <!-- Beige bølgende baggrund mobil -->
             <img class="beige_wave" src="img/champagne.png" alt="">
    
         </section>
@@ -293,18 +296,21 @@
                             <div class="champagne_info_boks">
                                 <p class="roed_tekst_lille">Krydret med <br> vanilje</p>
                             </div>
-                            <div>
-                                <button class="sevoresvinkort_btn_pc">Se vores vinkort</button>
-                            </div>
+    <!-- Hyperlink stylet som knap -->     
+                        </div>
+                        <div>                       
+                            <a id="laes_mere_pc" class="sevoresvinkort_btn_pc" href="vinkort.html">Se vores vinkort</a>
                         </div>
                     </div>
                 </div>
             </div>
 
+    <!-- Beige bølgende baggrund pc -->
             <img class="beige_wave_stor" src="img/champagne_stor.png" alt="">
 
         </section>
-        
+    
+    <!-- Vi tilbyder også -->
         <section class="tilbyder_forside">
 
             <img class="draabe_forside" src="img/draabe2.png" alt="">
@@ -328,10 +334,13 @@
                             <br>
                             3 smageglas for 120 kr.</p>
                     </div>
+    <!-- Hyperlink stylet som knap -->
                     <div class="sevoresvinkort_btn_container">
-                        <button class="sevoresvinkort_btn">Se vores vinkort</button>
+                        <a class="sevoresvinkort_btn" href="vinkort.html">Se vores vinkort</a>
                     </div>
-                    <button id="vinkort_btn_hide" class="sevoresvinkort_btn">Se vores vinkort</button>
+
+    <!-- Hyperlink stylet som knap -->
+                    <a id="vinkort_btn_hide" class="sevoresvinkort_btn" href="vinkort.html">Se vores vinkort</a>
                 </div>
     
                 <div class="tilbyder_indhold_forside">
@@ -347,10 +356,13 @@
                             <br>
                             Se vores Kult Bar vinkort</p>
                     </div>
+    <!-- Hyperlink stylet som knap -->
                     <div class="sevoresvinkort_btn_container">
-                        <button class="sevoresvinkort_btn">Se vores vinkort</button>
+                        <a class="sevoresvinkort_btn" href="vinkort.html">Se vores vinkort</a>
                     </div>
-                    <button id="vinkort_btn_hide" class="sevoresvinkort_btn">Se vores vinkort</button>
+
+    <!-- Hyperlink stylet som knap -->
+                    <a id="vinkort_btn_hide" class="sevoresvinkort_btn" href="vinkort.html">Se vores vinkort</a>
                 </div>
     
                 <div class="tilbyder_indhold_forside">
@@ -370,16 +382,20 @@
                             <br>
                             Winther Sangria</p>
                     </div>
+    <!-- Hyperlink stylet som knap -->
                     <div class="sevoresvinkort_btn_container">
-                        <button class="sevoresvinkort_btn">Se vores vinkort</button>
+                        <a class="sevoresvinkort_btn" href="vinkort.html">Se vores vinkort</a>
                     </div>
-                    <button id="vinkort_btn_hide" class="sevoresvinkort_btn">Se vores vinkort</button>
+
+    <!-- Hyperlink stylet som knap -->
+                    <a id="vinkort_btn_hide" class="sevoresvinkort_btn" href="vinkort.html">Se vores vinkort</a>
                     
                 </div>
             </div>
 
+    <!-- Hyperlink stylet som knap -->
             <div class="tilbage_btn_container">
-                <button class="tilbage_btn">Tilbage til toppen</button>
+                <a class="tilbage_btn" href="index.html">Tilbage til toppen</a>
             </div>
             
         </section>
@@ -432,8 +448,8 @@
                 <p>Følg med her :</p>
             </div>
             <div class="some_pc">
-                <img class="facebook" src="img/facebook.png" alt="facebook">
-                <img class="instagram" src="img/instagram.png" alt="instagram">
+                <a class="facebook" href="https://www.facebook.com/planbvinogtapas"><img class="facebook" src="img/facebook.png" alt="facebook"></a>
+                <a class="instagram" href="https://www.instagram.com/planbvinogtapas/"><img class="instagram" src="img/instagram.png" alt="instagram"></a>
             </div>
             <div>
                 <img class="kontrolrapport" src="img/kontrolrapport.png" alt="kontrol rapport">

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <!-- JavaScript -->
     <script src="javascript/burgermenu.js" defer></script>
-    <script src="javascript/slideshow.js" defer></script>
+    <script src="javascript/antaltaeller.js" defer></script>
     <!-- Font Snell Roundhand -->
     <link href="https://db.onlinewebfonts.com/c/31ed0189fe1ff1e740a652e0f75b77dc?family=Snell+Roundhand+Script" rel="stylesheet">
     <!-- Font Montserrat -->
@@ -24,173 +24,177 @@
     <!-- Header -->
     <header>
 
-    <!-- Burgermenuikon Mobil -->
-        <div class="header_mobil">
-            <div class="burgermenu_container">
-                <img id="burgermenu" src="img/menu.png" alt="burgermenu">
+        <!-- Burgermenuikon Mobil -->
+            <div class="header_mobil">
+                <div class="burgermenu_container">
+                    <img id="burgermenu" src="img/menu.png" alt="burgermenu">
+                </div>
             </div>
-        </div>
-        
-
-    <!-- Pc navigation -->
-        <nav class="dropdown_menu">
             
-            <div class="menu_venstre">
-
-                <div class="dropdown">
-                    <button class="dropdown_btn">Book bord</button>
-                    <div class="dropdown_indhold_pc">
-                        <a href="">Gå til booking</a>
+    
+        <!-- Pc navigation -->
+            <nav class="dropdown_menu">
+                
+                <div class="menu_venstre">
+    
+                    <div class="dropdown">
+                        <button class="dropdown_btn">Book bord</button>
+                        <div class="dropdown_indhold_pc">
+                            <a href="gaatilbooking.html">Gå til booking</a>
+                        </div>
                     </div>
+                    
+                    <div class="dropdown"> 
+                        <button class="dropdown_btn">Events</button>
+                        <div class="dropdown_indhold_pc">
+                            <a href="upcomingevents.html">Upcoming events</a>
+                            <a href="sestedet.html">Se stedet</a>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="menu_hoejre">
+    
+                    <div class="dropdown">  
+                        <button class="dropdown_btn">Menu</button>
+                        <div class="dropdown_indhold_pc">
+                            <a href="vinkort.html">Vinkort</a>
+                            <a href="tapasmenu.html">Tapasmenu</a>
+                            <a href="mysterywine.html">Mystery Wine</a>
+                        </div>
+                    </div>
+    
+                    <div class="dropdown"> 
+                        <button class="dropdown_btn">Gavekort</button>
+                        <div class="dropdown_indhold_pc">
+                            <a href="bestilgavekort.html">Bestil gavekort</a> 
+                        </div> 
+                    </div>
+    
                 </div>
                 
-                <div class="dropdown"> 
-                    <button class="dropdown_btn">Events</button>
-                    <div class="dropdown_indhold_pc">
-                        <a href="">Upcoming events</a>
-                        <a href="sestedet.html">Se stedet</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="menu_hoejre">
-
-                <div class="dropdown">  
-                    <button class="dropdown_btn">Menu</button>
-                    <div class="dropdown_indhold_pc">
-                        <a href="">Vinkort</a>
-                        <a href="">Tapasmenu</a>
-                        <a href="">Mystery Wine</a>
-                    </div>
-                </div>
-
-                <div class="dropdown"> 
-                    <button class="dropdown_btn">Gavekort</button>
-                    <div class="dropdown_indhold_pc">
-                        <a href="">Bestil gavekort</a> 
-                    </div> 
-                </div>
-
-            </div>
-            
-        </nav>
-
-    <!-- Logo -->
-        <div class="logo_container">
-
-    <!-- Logo Mobil -->
-            <a href="index.html"><img class="logo" src="img/logoPlanB.png" alt="logo"></a>
-            
-
-    <!-- Logo Pc -->
+            </nav>
     
-            <a class="a_logo" href="index.html"><img class="logo_pc" src="img/logoPlanB.png" alt="logo"></a>
+        <!-- Logo -->
+            <div class="logo_container">
     
-        </div>
+        <!-- Logo Mobil -->
+                <a href="index.html"><img class="logo" src="img/logoPlanB.png" alt="logo"></a>
+                
+    
+        <!-- Logo Pc -->
         
-    <!-- Mobil navigation -->
-        <nav>
-            <div id="menu_container">
-                <div>
-                    <button class="menubtn">Book bord</button>
-                    <div class="dropdown_indhold">
-                        <a href="">Gå til booking</a>
-                    </div>
-                </div>
-                <div>
-                    <button class="menubtn">Events</button>
-                    <div class="dropdown_indhold">
-                        <a href="">Upcoming events</a>
-                        <a href="sestedet.html">Se stedet</a>
-                    </div>
-                </div>
-                <div>
-                    <button class="menubtn">Menu</button>
-                    <div class="dropdown_indhold">
-                        <a href="">Vinkort</a>
-                        <a href="">Tapasmenu</a>
-                        <a href="">Mystery Wine</a>
-                    </div>
-                </div>
-                <div>
-                    <button class="menubtn">Gavekort</button>
-                    <div class="dropdown_indhold">
-                        <a href="">Bestil gavekort</a>
-                    </div>
-                </div>
+                <a class="a_logo" href="index.html"><img class="logo_pc" src="img/logoPlanB.png" alt="logo"></a>
+        
             </div>
-        </nav>
-
+            
+        <!-- Mobil navigation -->
+            <nav>
+                <div id="menu_container">
+                    <div>
+                        <button class="menubtn">Book bord</button>
+                        <div class="dropdown_indhold">
+                            <a href="gaatilbooking.html">Gå til booking</a>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="menubtn">Events</button>
+                        <div class="dropdown_indhold">
+                            <a href="upcomingevents.html">Upcoming events</a>
+                            <a href="sestedet.html">Se stedet</a>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="menubtn">Menu</button>
+                        <div class="dropdown_indhold">
+                            <a href="vinkort.html">Vinkort</a>
+                            <a href="tapasmenu.html">Tapasmenu</a>
+                            <a href="mysterywine.html">Mystery Wine</a>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="menubtn">Gavekort</button>
+                        <div class="dropdown_indhold">
+                            <a href="bestilgavekort.html">Bestil gavekort</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+    
     </header>
 
-    <!-- breadcrumbs -->
-    <section>
-        <img class="bigphoto" src="img/flaskerkork_mobil.jpg" alt="baggrund">
-        <img id="baggrund_gavekort_pc" class="baggrundsbillede_pc" src="img/flaskerkork_stor.jpg" alt="">
-        <h3 id="main_overskrift_gavekort" class="main_overskrift">Gavekort</h3>
+    <!-- Main -->
+    <main>
+        <!-- breadcrumbs -->
+        <section>
+            <img class="bigphoto" src="img/flaskerkork_mobil.jpg" alt="baggrund">
+            <img id="baggrund_gavekort_pc" class="baggrundsbillede_pc" src="img/flaskerkork_stor.jpg" alt="">
+            <h3 id="main_overskrift_gavekort" class="main_overskrift">Gavekort</h3>
 
-        <div class="breadcrumbs_con">
-            <div class="breadcrumbs_container">
-                <img class="breadcrumbs_img" src="img/gift-card.png" alt="gavekort">
-                <p class="breadcrumbs_p">Indtast Værdi</p>
-                <img class="pil_gavekort" src="img/pil_gavekort.png" alt="">
+            <div class="breadcrumbs_con">
+                <div class="breadcrumbs_container">
+                    <img class="breadcrumbs_img" src="img/gift-card.png" alt="gavekort">
+                    <p class="breadcrumbs_p">Indtast Værdi</p>
+                    <img class="pil_gavekort" src="img/pil_gavekort.png" alt="">
+                </div>
+                <div class="breadcrumbs_container">
+                    <img class="breadcrumbs_img" src="img/edit.png" alt="filtrer">
+                    <p class="breadcrumbs_p">Personliggør</p>
+                    <img class="pil_gavekort" src="img/pil_gavekort.png" alt="">
+                </div>
+                <div class="breadcrumbs_container">
+                    <img class="breadcrumbs_img" src="img/approval.png" alt="pakke">
+                    <p class="breadcrumbs_p">Forsendelse</p>
+                    <img class="pil_gavekort" src="img/pil_gavekort.png" alt="">
+                </div>
+                <div id="betaling" class="breadcrumbs_container">
+                    <img class="breadcrumbs_img" src="img/credit-card.png" alt="card">
+                    <p class="breadcrumbs_p">Betaling</p>
+                </div>
             </div>
-            <div class="breadcrumbs_container">
-                <img class="breadcrumbs_img" src="img/edit.png" alt="filtrer">
-                <p class="breadcrumbs_p">Personliggør</p>
-                <img class="pil_gavekort" src="img/pil_gavekort.png" alt="">
+        </section>
+
+        <!-- indtast værdi -->
+        <section>
+            <div class="p_container_gavekort">
+                <p class="overskrift2">Indtast Værdi</p>
+                <p class="p1_gavekort">Gyldig i 12 måneder</p>
+                <p class="p2_gavekort">Vælg eller indtast selv beløb
+                    i DKK mellem 200 - 3000 kr.</p>
             </div>
-            <div class="breadcrumbs_container">
-                <img class="breadcrumbs_img" src="img/approval.png" alt="pakke">
-                <p class="breadcrumbs_p">Forsendelse</p>
-                <img class="pil_gavekort" src="img/pil_gavekort.png" alt="">
+
+            <div id="gavekort_btn_container">
+                <button class="gavekort_btn">500</button>
+                <button class="gavekort_btn">1000</button>
+                <button class="gavekort_btn">1500</button>
+                <button class="gavekort_btn">2000</button>
             </div>
-            <div id="betaling" class="breadcrumbs_container">
-                <img class="breadcrumbs_img" src="img/credit-card.png" alt="card">
-                <p class="breadcrumbs_p">Betaling</p>
+
+            <form id="form_container">
+                <input id="form_input" type="text" name="Indtast beløb" value="Indtast beløb . . .">
+                <img class="pil_ned" src="img/pil_gavekort.png" alt="">
+            </form>
+        </section>
+
+        <!-- antal gavekort -->
+        <section>
+            <p class="overskrift2">Antal gavekort</p>
+
+            <div id="antal_gavekort_container">
+                <div class="antal_gavekort_taeller">
+                    <button id="minus">–</button>
+                    <span id="antal">0</span>
+                    <button id="plus">+</button>
+                </div>
             </div>
-        </div>
-    </section>
 
-    <!-- indtast værdi -->
-    <section>
-        <div class="p_container_gavekort">
-            <p class="overskrift2">Indtast Værdi</p>
-            <p class="p1_gavekort">Gyldig i 12 måneder</p>
-            <p class="p2_gavekort">Vælg eller indtast selv beløb
-                i DKK mellem 200 - 3000 kr.</p>
-        </div>
-
-        <div id="gavekort_btn_container">
-            <button class="gavekort_btn">500</button>
-            <button class="gavekort_btn">1000</button>
-            <button class="gavekort_btn">1500</button>
-            <button class="gavekort_btn">2000</button>
-        </div>
-
-        <form id="form_container">
-            <input id="form_input" type="text" name="Indtast beløb" value="Indtast beløb . . .">
-            <img class="pil_ned" src="img/pil_gavekort.png" alt="">
-        </form>
-    </section>
-
-    <!-- antal gavekort -->
-    <section>
-        <p class="overskrift2">Antal gavekort</p>
-
-        <div id="antal_gavekort_container">
-            <div class="antal_gavekort_taeller">
-                <button id="minus">–</button>
-                <span id="antal">0</span>
-                <button id="plus">+</button>
+    <!-- Hyperlink stylet som knap, ikke videre programmeret -->
+            <div class="btn_naeste_annullér_container">
+                <a class="btn_naeste_annullér" href="notfound.html">Næste</a>
             </div>
-        </div>
-
-        <div class="btn_naeste_annullér_container">
-            <button class="btn_naeste_annullér">Næste</button>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
@@ -238,8 +242,8 @@
                 <p>Følg med her :</p>
             </div>
             <div class="some_pc">
-                <img class="facebook" src="img/facebook.png" alt="facebook">
-                <img class="instagram" src="img/instagram.png" alt="instagram">
+                <a class="facebook" href="https://www.facebook.com/planbvinogtapas"><img class="facebook" src="img/facebook.png" alt="facebook"></a>
+                <a class="instagram" href="https://www.instagram.com/planbvinogtapas/"><img class="instagram" src="img/instagram.png" alt="instagram"></a>
             </div>
             <div>
                 <img class="kontrolrapport" src="img/kontrolrapport.png" alt="kontrol rapport">

@@ -39,14 +39,14 @@
                     <div class="dropdown">
                         <button class="dropdown_btn">Book bord</button>
                         <div class="dropdown_indhold_pc">
-                            <a href="">Gå til booking</a>
+                            <a href="gaatilbooking.html">Gå til booking</a>
                         </div>
                     </div>
                     
                     <div class="dropdown"> 
                         <button class="dropdown_btn">Events</button>
                         <div class="dropdown_indhold_pc">
-                            <a href="">Upcoming events</a>
+                            <a href="upcomingevents.html">Upcoming events</a>
                             <a href="sestedet.html">Se stedet</a>
                         </div>
                     </div>
@@ -58,16 +58,16 @@
                     <div class="dropdown">  
                         <button class="dropdown_btn">Menu</button>
                         <div class="dropdown_indhold_pc">
-                            <a href="">Vinkort</a>
-                            <a href="">Tapasmenu</a>
-                            <a href="">Mystery Wine</a>
+                            <a href="vinkort.html">Vinkort</a>
+                            <a href="tapasmenu.html">Tapasmenu</a>
+                            <a href="mysterywine.html">Mystery Wine</a>
                         </div>
                     </div>
     
                     <div class="dropdown"> 
                         <button class="dropdown_btn">Gavekort</button>
                         <div class="dropdown_indhold_pc">
-                            <a href="">Bestil gavekort</a> 
+                            <a href="bestilgavekort.html">Bestil gavekort</a> 
                         </div> 
                     </div>
     
@@ -94,35 +94,36 @@
                     <div>
                         <button class="menubtn">Book bord</button>
                         <div class="dropdown_indhold">
-                            <a href="">Gå til booking</a>
+                            <a href="gaatilbooking.html">Gå til booking</a>
                         </div>
                     </div>
                     <div>
                         <button class="menubtn">Events</button>
                         <div class="dropdown_indhold">
-                            <a href="">Upcoming events</a>
+                            <a href="upcomingevents.html">Upcoming events</a>
                             <a href="sestedet.html">Se stedet</a>
                         </div>
                     </div>
                     <div>
                         <button class="menubtn">Menu</button>
                         <div class="dropdown_indhold">
-                            <a href="">Vinkort</a>
-                            <a href="">Tapasmenu</a>
-                            <a href="">Mystery Wine</a>
+                            <a href="vinkort.html">Vinkort</a>
+                            <a href="tapasmenu.html">Tapasmenu</a>
+                            <a href="mysterywine.html">Mystery Wine</a>
                         </div>
                     </div>
                     <div>
                         <button class="menubtn">Gavekort</button>
                         <div class="dropdown_indhold">
-                            <a href="">Bestil gavekort</a>
+                            <a href="bestilgavekort.html">Bestil gavekort</a>
                         </div>
                     </div>
                 </div>
             </nav>
     
-        </header>
+    </header>
 
+    <!-- Main -->
     <main>
         <section>
             <!-- overlay til verdenskort -->
@@ -173,28 +174,29 @@
         <section>
             <h3 class="lille_overskrift">Hurtig tilgang</h3>
 
+        <!-- OBS virker kun til mobil, bortset fra de tre øverste knapper til pc -->
             <div id="tilgang_btn_container">
                 <div class="tilgang_btn_container_div">
-                    <button class="tilgang_btn">60 kr / 360 kr</button>
-                    <button class="tilgang_btn">85 kr / 450 kr</button>
-                    <button class="tilgang_btn">110 kr / 600 kr</button>
+                    <a id="v_center" class="tilgang_btn" href="#v1">60 kr / 360 kr</a>
+                    <a id="v_center" class="tilgang_btn" href="#v2">85 kr / 450 kr</a>
+                    <a id="v_center" class="tilgang_btn" href="#v3">110 kr / 600 kr</a>
                 </div>
                 <div class="tilgang_btn_container_div">
-                    <button class="tilgang_btn">Rosé vin</button>
-                    <button class="tilgang_btn">Kult Bar</button>
-                    <button class="tilgang_btn">Winedrinks / Drinks</button>
+                    <a id="v_center" class="tilgang_btn" href="#v4">Rosé vin</a>
+                    <a id="v_center" class="tilgang_btn" href="#v5">Sæsonens vin</a>
+                    <a id="v_center" class="tilgang_btn" href="#v6">Winedrinks / Drinks</a>
                 </div>
                 <div class="tilgang_btn_container_div">
-                    <button class="tilgang_btn">Sæsonens vin</button>
-                    <button class="tilgang_btn">Søde vine</button>
-                    <button class="tilgang_btn">Soft drinks</button>
+                    <a id="v_center" class="tilgang_btn" href="#v7">Kult Bar</a>
+                    <a id="v_center" class="tilgang_btn" href="#v8">Søde vine</a>
+                    <a id="v_center" class="tilgang_btn" href="#v9">Soft drinks</a>
                 </div>
             </div>
         </section>
 
         <!-- sektion med vin til 85 kr glas / flaske 450 kr -->
 
-        <section>
+        <section id="v1">
             <h3 id="vinkort_underoverskrift" class="lille_overskrift">Pr. glas 85kr / flaske 450 kr</h3>
 
             <!-- mousserende vin 85 kr glas / flaske 450 kr -->
@@ -358,12 +360,12 @@
             </div>
 
             <div class="tilbage_btn_container">
-                <button class="tilbage_btn">Tilbage til toppen</button>
+                <a class="tilbage_btn" href="#tilgang_btn_container">Tilbage til toppen</a>
             </div>
         </section>
 
         <!-- sektion med vin til 85 kr glas / flaske 450 kr -->
-        <section>
+        <section id="v2">
             <h3 id="lille_overskrift_23" class="lille_overskrift">Pr. glas 85kr / flaske 450 kr</h3>
 
             <!-- mousserende vin 85 kr glas / flaske 450 kr -->
@@ -543,13 +545,13 @@
             </div>
 
             <div class="tilbage_btn_container">
-                <button class="tilbage_btn">Tilbage til toppen</button>
+                <a class="tilbage_btn" href="#tilgang_btn_container">Tilbage til toppen</a>
             </div>
 
         </section>
 
         <!-- sektion med vin til 110 kr glas / flaske 600 kr -->
-        <section>
+        <section id="v3">
             <h3 id="lille_overskrift_23" class="lille_overskrift">Pr. glas 110kr / flaske 600 kr</h3>
 
             <!-- mousserende vin 110 kr glas / flaske 600 kr -->
@@ -741,7 +743,7 @@
             </div>
 
             <div class="tilbage_btn_container">
-                <button class="tilbage_btn">Tilbage til toppen</button>
+                <a class="tilbage_btn" href="#tilgang_btn_container">Tilbage til toppen</a>
             </div>
         </section>
 
@@ -750,7 +752,7 @@
             <h3 id="lille_overskrift_23" class="lille_overskrift">Se resten af vores specialiteter</h3>
 
             <!-- rosé beige boks -->
-            <div class="beige_boks">
+            <div id="v4" class="beige_boks">
                 <h2 class="overskrift_beige_boks">Rosé</h2>
                 <p class="pris_underoverskrift_beige_boks">Glas / Flaske</p>
                 <div class="container_beige_boks">
@@ -774,12 +776,12 @@
             </div>
 
             <div class="booking_btn_container">
-                <button class="booking_btn">Gå til booking</button>
+                <a class="booking_btn" href="gaatilbooking.html">Gå til booking</a>
             </div>
 
 
             <!-- sæsonens vin beige boks -->
-            <div class="beige_boks">
+            <div id="v5" class="beige_boks">
                 <h2 class="overskrift_beige_boks">Sæsonens vin</h2>
                 <p id="saesonensvin_pris">3 glas for 120 kr. –  vælg mellem hvid eller rød</p>
                 <div class="container1_beige_boks">
@@ -802,15 +804,15 @@
 
 
             <div class="booking_btn_container">
-                <button class="booking_btn">Gå til booking</button>
+                <a class="booking_btn" href="gaatilbooking.html">Gå til booking</a>
             </div>
 
             <div class="tilbage_btn_container">
-                <button class="tilbage_btn">Tilbage til toppen</button>
+                <a class="tilbage_btn" href="#tilgang_btn_container">Tilbage til toppen</a>
             </div>
 
             <!-- winedrinks beige boks -->
-            <div class="beige_boks">
+            <div id="v6" class="beige_boks">
                 <h2 class="overskrift_beige_boks">Winedrinks</h2>
                 <p class="pris_underoverskrift_beige_boks">Pris</p>
                 <div class="container_beige_boks">
@@ -831,7 +833,7 @@
             </div>
 
             <div class="booking_btn_container">
-                <button class="booking_btn">Gå til booking</button>
+                <a class="booking_btn" href="gaatilbooking.html">Gå til booking</a>
             </div>
 
 
@@ -860,16 +862,16 @@
             </div>
 
             <div class="booking_btn_container">
-                <button class="booking_btn">Gå til booking</button>
+                <a class="booking_btn" href="gaatilbooking.html">Gå til booking</a>
             </div>
 
             <div class="tilbage_btn_container">
-                <button class="tilbage_btn">Tilbage til toppen</button>
+                <a class="tilbage_btn" href="#tilgang_btn_container">Tilbage til toppen</a>
             </div>
 
 
             <!-- kult bar beige boks -->
-            <div class="beige_boks">
+            <div id="v7" class="beige_boks">
                 <h2 class="overskrift_beige_boks">Kult Bar</h2>
                 <div class="underoverkrift1_beige_boks">
                     <p class="underoverskrifter_beige_boks">HVIDVIN</p>
@@ -958,16 +960,16 @@
             </div>
 
             <div class="booking_btn_container">
-                <button class="booking_btn">Gå til booking</button>
+                <a class="booking_btn" href="gaatilbooking.html">Gå til booking</a>
             </div>
 
             <div class="tilbage_btn_container">
-                <button class="tilbage_btn">Tilbage til toppen</button>
+                <a class="tilbage_btn" href="#tilgang_btn_container">Tilbage til toppen</a>
             </div>
 
 
             <!-- søde vine beige boks -->
-            <div class="beige_boks">
+            <div id="v8" class="beige_boks">
                 <h2 class="overskrift_beige_boks">Søde vine</h2>
                 <p class="pris_underoverskrift_beige_boks">Glas 12 cl.</p>
                 <div class="container_beige_boks">
@@ -992,11 +994,11 @@
             </div>
 
             <div class="booking_btn_container">
-                <button class="booking_btn">Gå til booking</button>
+                <a class="booking_btn" href="gaatilbooking.html">Gå til booking</a>
             </div>
 
             <!-- soft drinks beige boks -->
-            <div class="beige_boks">
+            <div id="v9" class="beige_boks">
                 <h2 class="overskrift_beige_boks">Soft Drinks</h2>
                 <div class="underoverkrift1_beige_boks">
                     <p class="underoverskrifter_beige_boks">ANDET</p>
@@ -1046,41 +1048,43 @@
             </div>
 
             <div class="booking_btn_container">
-                <button class="booking_btn">Gå til booking</button>
+                <a class="booking_btn" href="gaatilbooking.html">Gå til booking</a>
             </div>
 
             <div class="tilbage_btn_container">
-                <button class="tilbage_btn">Tilbage til toppen</button>
+                <a class="tilbage_btn" href="#tilgang_btn_container">Tilbage til toppen</a>
             </div>
         </section>
 
+        <!-- Vi satte menuer ind som billeder til stor skærm. Se "upcomingevents" for at se,
+        hvordan vinkortene skal kodes til stor skærm -->
         <section class="specialiteter_pc">
             <h3 id="lille_overskrift_23" class="lille_overskrift">Se resten af vores specialiteter</h3>
             <img class="menu_img" src="img/rose_menu.png" alt="">
-            <button id="roed_btn_pc" class="booking_btn">Gå til booking</button>
+            <a id="roed_btn_pc" class="booking_btn" href="gaatilbooking.html">Gå til booking</a>
             <img class="menu_img" src="img/saesonensvin_menu.png" alt="">
-            <button id="roed_btn_pc" class="booking_btn">Gå til booking</button>
+            <a id="roed_btn_pc" class="booking_btn" href="gaatilbooking.html">Gå til booking</a>
             <div class="tilbage_btn_container">
-                <button id="tilbage_btn_margin" class="tilbage_btn">Tilbage til toppen</button>
+                <a id="tilbage_btn_margin" class="tilbage_btn" href="#tilgang_btn_container">Tilbage til toppen</a>
             </div>
             <img class="menu_img" src="img/winedrinks_menu.png" alt="">
-            <button id="roed_btn_pc" class="booking_btn">Gå til booking</button>
+            <a id="roed_btn_pc" class="booking_btn" href="gaatilbooking.html">Gå til booking</a>
             <img class="menu_img" src="img/drinks_menu.png" alt="">
-            <button id="roed_btn_pc" class="booking_btn">Gå til booking</button>
+            <a id="roed_btn_pc" class="booking_btn" href="gaatilbooking.html">Gå til booking</a>
             <div class="tilbage_btn_container">
-                <button id="tilbage_btn_margin" class="tilbage_btn">Tilbage til toppen</button>
+                <a id="tilbage_btn_margin" class="tilbage_btn" href="#tilgang_btn_container">Tilbage til toppen</a>
             </div>
             <img class="menu_img" src="img/kultbar_menu.png" alt="">
-            <button id="roed_btn_pc" class="booking_btn">Gå til booking</button>
+            <a id="roed_btn_pc" class="booking_btn" href="gaatilbooking.html">Gå til booking</a>
             <div class="tilbage_btn_container">
-                <button id="tilbage_btn_margin" class="tilbage_btn">Tilbage til toppen</button>
+                <a id="tilbage_btn_margin" class="tilbage_btn" href="#tilgang_btn_container">Tilbage til toppen</a>
             </div>
             <img class="menu_img" src="img/soedevine_menu.png" alt="">
-            <button id="roed_btn_pc" class="booking_btn">Gå til booking</button>
+            <a id="roed_btn_pc" class="booking_btn" href="gaatilbooking.html">Gå til booking</a>
             <img class="menu_img" src="img/softdrinks_menu.png" alt="">
-            <button id="roed_btn_pc" class="booking_btn">Gå til booking</button>
+            <a id="roed_btn_pc" class="booking_btn" href="gaatilbooking.html">Gå til booking</a>
             <div class="tilbage_btn_container">
-                <button id="tilbage_btn_margin_sidste" class="tilbage_btn">Tilbage til toppen</button>
+                <a id="tilbage_btn_margin_sidste" class="tilbage_btn" href="#tilgang_btn_container">Tilbage til toppen</a>
             </div>
         </section>
 
@@ -1132,8 +1136,8 @@
                 <p>Følg med her :</p>
             </div>
             <div class="some_pc">
-                <img class="facebook" src="img/facebook.png" alt="facebook">
-                <img class="instagram" src="img/instagram.png" alt="instagram">
+                <a class="facebook" href="https://www.facebook.com/planbvinogtapas"><img class="facebook" src="img/facebook.png" alt="facebook"></a>
+                <a class="instagram" href="https://www.instagram.com/planbvinogtapas/"><img class="instagram" src="img/instagram.png" alt="instagram"></a>
             </div>
             <div>
                 <img class="kontrolrapport" src="img/kontrolrapport.png" alt="kontrol rapport">
