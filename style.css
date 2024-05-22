@@ -302,6 +302,7 @@ header {
     margin-top: -5%;
 }
 
+/* opacity ved infographic JS på forside */
 .cirkel_info, .vertikal_streg_info, .vertikal_streg_info_2, .champagne_info_boks, .info_1, .info_2, .info_3 {
     transition: opacity 1.5s;
 }
@@ -2067,6 +2068,10 @@ h3 {
         top: 43em;
         display: block;
     }
+
+    #booking_btn_forside:hover {
+        background-color: #b63f3f;
+    }
     
     .booking_btn_container {
         display: none;
@@ -2120,6 +2125,10 @@ h3 {
         padding: 1.5% 5%;
         display: block;
         margin: 15% 0 0 -45%;
+    }
+
+    .læsmere_btn_forside:hover {
+        background-color: #b63f3f;
     }
 
     .læsmere_btn_container {
@@ -2290,6 +2299,10 @@ h3 {
         padding: 15%;
         width: 200%;
         margin: 0 0 0 105%;
+    }
+
+    .sevoresvinkort_btn_pc:hover {
+        background-color: #b63f3f;
     }
 
     #laes_mere_pc {
