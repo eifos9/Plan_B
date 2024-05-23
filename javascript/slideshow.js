@@ -3,6 +3,7 @@
 for class = billedgalleri, i et array så de kan styles i for-loopet nedenfor
 samt vises og skjules med funktionerne frem() og tilbage(), der med push/shift
 og unshift/pop flytter elementerne rundt i arrayet */
+// Muligheden for at anvende Array.from() var et forslag fra Chat-GPT
 const galleribillede = Array.from(document.querySelectorAll(".billedgalleri"));
 // Konstanter for frem- og tilbagepile:
 const pil_h = document.getElementById("pil_h");
