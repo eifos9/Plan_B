@@ -1379,6 +1379,10 @@ video {
     display: none;
 }
 
+.sevoresvinkort_btn_mw {
+    display: none;
+}
+
 .fodspor_mw_pc {
     display: none;
 }
@@ -2941,6 +2945,7 @@ h3 {
         padding: 1% 5%;
         position: absolute;
         margin: -6% 8%;
+        display: block;
     }
 
     .sevoresvinkort_btn_mw:hover {
