@@ -1,6 +1,6 @@
 // Konstant for alle de elementer, der skal fade ind og ud:
 // Der bruges querySelectorAll til at nå alle elementerne med id = info_per
-const info_per = document.querySelectorAll("#info_per");
+const info_per = document.querySelectorAll(".cirkel_info, .vertikal_streg_info, .champagne_info_boks, .vertikal_streg_info_2, .info_1, .info_2, .info_3");
 
 // Når der scrolles i vinduet kaldes funktionen fadeIndUd:
 window.onscroll = fadeIndUd;

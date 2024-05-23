@@ -1,6 +1,6 @@
 // Konstanter for pins og overlays:
 const info = document.querySelectorAll("#pin1, #pin2, #pin3, #pin4, #pin5, #pin6, #pin7, #pin8, #pin9");
-const overlay = document.querySelectorAll("#overlay_container_1");
+const overlay = document.querySelectorAll(".overlay_container_1");
 
 let viserOverlay = false;
 

@@ -425,7 +425,7 @@ h4 {
     margin: 15% 0;
 }
 
-#vinkort_btn_hide {
+#vinkort_btn_hide1, #vinkort_btn_hide2, #vinkort_btn_hide3 {
     display: none;
 }
 
@@ -500,7 +500,7 @@ h4 {
 }
 
 /* overlays */
-#overlay_container_1 {
+.overlay_container_1 {
     background-color: #F0E7D0 ;
     margin: 7%;
     margin-top: -10%;
@@ -587,7 +587,7 @@ h5 {
     flex-direction: column;
 }
 
-#v_center {
+#v_center1, #v_center2, #v_center3, #v_center4, #v_center5, #v_center6, #v_center7, #v_center8, #v_center9 {
     text-align: center;
 }
 
@@ -780,7 +780,7 @@ specialiteter "Se resten af vores specialiteter" */
     display: none;
 }
 
-#roed_btn_pc {
+#roed_btn_pc1, #roed_btn_pc2 {
     display: none;
 }
 
@@ -886,7 +886,7 @@ specialiteter "Se resten af vores specialiteter" */
     gap: 16.3%;
 }
 
-#pris_17 {
+#pris_17_1, #pris_17_2 {
     margin-top: 30%;
 }
 
@@ -1189,23 +1189,23 @@ h1 {
     width: 100%;
 }
 
-#roed_stedet {
+#roed_stedet1, #roed_stedet2 {
     font-size: 36pt;
     margin-top: -2%;
 }
 
-#roed_lille_stedet {
+#roed_lille_stedet1, #roed_lille_stedet2 {
     text-align: center;
     padding: 5% 5%;
 }
 
-#lys_stedet {
+#lys_stedet1, #lys_stedet2 {
     font-size: 36pt;
     margin-top: -2%;
     color: #F0E5D0;
 }
 
-#lys_lille_stedet {
+#lys_lille_stedet1, #lys_lille_stedet2 {
     text-align: center;
     padding: 5% 5%;
     color: #F0E5D0;
@@ -1748,7 +1748,7 @@ h3 {
     font-size: 16pt;
 }
 
-#tapasmenu_img_stor {
+#tapasmenu_img_stor1, #tapasmenu_img_stor2 {
     display: none;
 }
 
@@ -2415,7 +2415,7 @@ h3 {
         margin: 0;
     }
 
-    #vinkort_btn_hide {
+    #vinkort_btn_hide1, #vinkort_btn_hide2, #vinkort_btn_hide3 {
         display: block;
     }
 
@@ -2508,7 +2508,7 @@ h3 {
         margin-top: 25%;
     }
 
-    #overlay_container_1 {
+    .overlay_container_1 {
         background-color: #F0E7D0;
         right: -3%;
         margin-top: 0;
@@ -2601,34 +2601,34 @@ h3 {
         right: 68%;
     }
 
-    #flag2 {
+    #flag2_1, #flag2_2, #flag2_3, #flag2_4, #flag2_5, #flag2_6, #flag2_7, #flag2_8, #flag2_9, #flag2_10, #flag2_11 {
         right: 38.5%;
     }
 
-    #flag3 {
+    #flag3_1, #flag3_2, #flag3_3, #flag3_4, #flag3_5, #flag3_6, #flag3_7 {
         right: 9%;
     }
 
-    #vine_3 {
+    #vine_3_con1, #vine_3_con2, #vine_3_con3, #vine_3_con4, #vine_3_con5, #vine_3_con6, #vine_3_con7, #vine_3_con8, #vine_3_con9, #vine_3_con10, #vine_3_con11, #vine_3_con12, #vine_3_con13, #vine_3_con14, #vine_3_con15, #vine_3_con16, #vine_3_con17, #vine_3_con18, #vine_3_con19, #vine_3_con20, #vine_3_con21 {
         margin: 7% 1.2% 0 1.2%;
     }
 
-    #vine_3_container {
+    #vine_3_container1, #vine_3_container2, #vine_3_container3, #vine_3_container4, #vine_3_container5, #vine_3_container6, #vine_3_container7 {
         justify-content: center;
         margin-bottom: -5%;
     }
 
-    #vine_2_container {
+    #vine_2_container1, #vine_2_container2, #vine_2_container3, #vine_2_container4 {
         justify-content: flex-start;
         margin-bottom: -5%;
         margin-bottom: 0;
     }
 
-    #vin_2 {
+    #vin_2_con1,  #vin_2_con2,  #vin_2_con3,  #vin_2_con4 {
         margin-left: -4.5%;
     }
 
-    #lille_overskrift_23 {
+    #lille_overskrift_23_1, #lille_overskrift_23_2, #lille_overskrift_23_3, #lille_overskrift_23_4 {
         margin-top: 7%;
     }
 
@@ -2646,7 +2646,7 @@ h3 {
         padding: 5% 7% 2%;
     }
 
-    #tilbage_btn_margin {
+    #tilbage_btn_margin1, #tilbage_btn_margin2, #tilbage_btn_margin3 {
         margin: 0 1% -3% 0;
     }
 
@@ -2654,7 +2654,7 @@ h3 {
         margin: 0 1% 5% 0;
     }
 
-    #roed_btn_pc {
+    #roed_btn_pc1, #roed_btn_pc2, #roed_btn_pc3, #roed_btn_pc4, #roed_btn_pc5, #roed_btn_pc6, #roed_btn_pc7 {
         position: relative;
         top: 0;
         left: 20%;
@@ -2666,7 +2666,7 @@ h3 {
         text-align: center;
     }
 
-    #roed_btn_pc:hover {
+    #roed_btn_pc1:hover, #roed_btn_pc2:hover,  #roed_btn_pc3:hover,  #roed_btn_pc4:hover,  #roed_btn_pc5:hover,  #roed_btn_pc6:hover,  #roed_btn_pc7:hover {
         background-color: #b63f3f;
     }
 
@@ -2725,16 +2725,16 @@ h3 {
         float: none;
     }
 
-    #roed_stedet {
+    #roed_stedet1, #roed_stedet2 {
         font-size: 38pt;
     }
 
-    #roed_lille_stedet {
+    #roed_lille_stedet1, #roed_lille_stedet2 {
         font-size: 11pt;
         margin: 5% 0;
     }
 
-    #lys_lille_stedet {
+    #lys_lille_stedet1, #lys_lille_stedet2 {
         font-size: 11pt;
         margin: 5% 0;
     }
@@ -2784,7 +2784,7 @@ h3 {
         margin-right: 4%;
     }
 
-    #lys_stedet {
+    #lys_stedet1, #lys_stedet2 {
         font-size: 38pt;
     }
 
@@ -2963,7 +2963,7 @@ h3 {
     /* ----------------------- */
 
     /* --- Pink header --- */
-    #dropdownbtn_pink {
+    #dropdownbtn_pink1, #dropdownbtn_pink2, #dropdownbtn_pink3, #dropdownbtn_pink4 {
         background-color: #6F3842;
     }
 
@@ -3273,12 +3273,16 @@ h3 {
         margin-bottom: 5%;
     }
     
-    #booking_btn {
+    #booking_btn1, #booking_btn2 {
         font-weight: 300;
         width: 20%;
         padding: 1.5% 0;
         margin-top: 3%;
         margin-bottom: -1.5%;
+    }
+
+    #booking_btn1:hover, #booking_btn2:hover {
+        background-color: #b63f3f;
     }
 
     #btn_annullér {
@@ -3289,7 +3293,7 @@ h3 {
         background-color: #b63f3f;
     }
 
-    #breadcrumbs_booking {
+    #breadcrumbs_booking1, #breadcrumbs_booking2, #breadcrumbs_booking3, #breadcrumbs_booking4 {
         margin: -2% -6% 0 -6%;
     }
 
@@ -3297,7 +3301,7 @@ h3 {
         margin: -2% -8% 0 -8%;
     }
 
-    #pil_book {
+    #pil_book1, #pil_book2, #pil_book3, #pil_book4 {
         width: 12%;
     }
 
@@ -3326,7 +3330,7 @@ h3 {
         display: none;
     }
 
-    #beige_boks_tapas_pc {
+    #beige_boks_tapas_pc1, #beige_boks_tapas_pc2 {
         display: none;
     }
 
@@ -3349,7 +3353,7 @@ h3 {
         margin-top: 20%;
     }
 
-    #tapasmenu_img_stor {
+    #tapasmenu_img_stor1, #tapasmenu_img_stor2 {
         display: block;
     }
 
