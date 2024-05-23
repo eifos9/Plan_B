@@ -459,7 +459,7 @@ h4 {
     width: 4%;
     left: 40%;
     margin-top: 12%;
-    rotate: -30deg;
+    transform: rotate(-30deg);
 }
 #pin5 {
     position: absolute;
@@ -472,14 +472,14 @@ h4 {
     width: 4%;
     left: 46%;
     margin-top: 12%;
-    rotate: 30deg;
+    transform: rotate(30deg);
 }
 #pin7 {
     position: absolute;
     width: 4%;
     left: 48%;
     margin-top: 15.5%;
-    rotate: 70deg;
+    transform: rotate(70deg);
 }
 #pin8 {
     position: absolute;
@@ -2478,7 +2478,7 @@ h3 {
     #pin4 {
         left: 43%;
         margin-top: 2%;
-        rotate: -30deg;
+        transform: rotate(-30deg);
     }
 
     #pin5 {
@@ -2489,13 +2489,13 @@ h3 {
     #pin6 {
         left: 47%;
         margin-top: 1%;
-        rotate: 30deg;
+        transform: rotate(30deg);
     }
 
     #pin7 {
         left: 47%;
         margin-top: 4%;
-        rotate: 70deg;
+        transform: rotate(70deg);
     }
 
     #pin8 {
