@@ -2285,7 +2285,7 @@ h3 {
     .champagne_info {
         display: flex;
         flex-direction: column;
-        justify-content: baseline;
+        align-items: baseline;
     }
     
     .sevoresvinkort_btn_pc {
@@ -2345,7 +2345,7 @@ h3 {
     h3 {
         font-family: Snell Roundhand Script, serif;
         color: #F0E7D0;
-        font-weight: light;
+        font-weight: lighter;
         font-size: 24pt;
         text-align: center;
     }
