@@ -285,6 +285,14 @@ header {
     display: inline-block;
 }
 
+.cirkel_info2 {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: #3F0A0A;
+    display: inline-block;
+}
+
 .vertikal_streg_info {
     height: 4em;
     width: 2px;
@@ -2192,7 +2200,7 @@ h3 {
         flex-direction: column;
     }
     
-    .champagne_info_boks {
+    .champagne_info_boks2 {
         background-color: #FEFAF1;
         border: #3F0A0A solid 3px;
         color: #3F0A0A;
