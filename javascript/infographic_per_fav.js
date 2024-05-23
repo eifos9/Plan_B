@@ -1,14 +1,23 @@
+// Konstant for alle de elementer, der skal fade ind og ud:
+// Der bruges querySelectorAll til at nå alle elementerne med id = info_per
 const info_per = document.querySelectorAll("#info_per");
 
+// Når der scrolles i vinduet kaldes funktionen fadeIndUd:
 window.onscroll = fadeIndUd;
 
+// Event handler:
+// Funktionen fadeIndUd:
+// If-sætninger, der gør elementerne synlige eller usynlige afhængig af deres placering:
+// Overgangen på 2s er lavet i style.css på id = info_per, linje 305-308
 function fadeIndUd() {
-    let info_pla1 = info_per[0].getBoundingClientRect();
-    if(info_pla1.top >= window.innerHeight - 200) {
-        info_per[0].style.opacity = "0";
+    let info_pla1 = info_per[0].getBoundingClientRect(); // Første element i Nodelistens position ift. vinduet
+    // Får elementet til at fade ud, når den forlader vinduet i bunden.
+    if(info_pla1.top >= window.innerHeight - 200) { // -200px for, at man kan se det ske
+        info_per[0].style.opacity = "0"; // Første element i Nodelisten styles til at blive usynlig
     }
-    if(info_pla1.top < window.innerHeight - 200) {
-        info_per[0].style.opacity = "1";
+    // Får elementet til at fade ind, når den kommer ind i vinduet i bunden.
+    if(info_pla1.top < window.innerHeight - 200) { // -200px for, at man kan se det ske
+        info_per[0].style.opacity = "1"; // Første element i Nodelisten styles til at blive synlig
     }
     let info_pla2 = info_per[1].getBoundingClientRect();
     if(info_pla2.top >= window.innerHeight - 200) {

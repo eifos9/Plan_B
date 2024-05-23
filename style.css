@@ -2308,7 +2308,7 @@ h3 {
     #laes_mere_pc {
         right: 10%;
         top: 72%;
-        padding: 2% 5%;
+        padding: 1.5% 2%;
         text-align: center;
         position: absolute;
         width: 20%;
@@ -2384,6 +2384,10 @@ h3 {
         display: block;
     }
 
+    .sevoresvinkort_btn:hover {
+        background-color: #b63f3f;
+    }
+
     .sevoresvinkort_btn_container {
         display: none;
     }
@@ -2396,6 +2400,10 @@ h3 {
     .tilbage_btn {
         padding: 1% 2%;
         font-size: 11pt; 
+    }
+
+    .tilbage_btn:hover {
+        background-color: #b63f3f;
     }
 
     .tilbage_btn_container {
@@ -2560,6 +2568,10 @@ h3 {
         padding: 1.5%;
     }
 
+    .tilgang_btn:hover {
+        background-color: #b63f3f;
+    }
+
     /* --- Vinkort indhold --- */
     #vinkort_underoverskrift {
         margin-top: 8%;
@@ -2652,6 +2664,10 @@ h3 {
         margin-top: -5%;
         width: 25%;
         text-align: center;
+    }
+
+    #roed_btn_pc:hover {
+        background-color: #b63f3f;
     }
 
     /* ----------------- */
@@ -2777,9 +2793,17 @@ h3 {
         padding: 1.5% 6%;
     }
 
+    #booking_btn:hover {
+        background-color: #b63f3f;
+    }
+
     #book_pc {
         margin-top: -75%;
         display: block;
+    }
+
+    #book_pc:hover {
+        background-color: #b63f3f;
     }
     
     .stedet_baggrund {
@@ -2909,6 +2933,10 @@ h3 {
         padding: 1% 5%;
         position: absolute;
         margin: -6% 8%;
+    }
+
+    .sevoresvinkort_btn_mw:hover {
+        background-color: #b63f3f;
     }
 
     /* --- Fodspor stor skærm --- */
@@ -3115,6 +3143,10 @@ h3 {
         text-align: center;
     }
 
+    #rose_btn_pc:hover {
+        background-color: #945d67;
+    }
+
     /* ----------------------- */
     /* --- Bestil gavekort --- */
     /* ----------------------- */
@@ -3185,6 +3217,10 @@ h3 {
         margin-top: 3%;
     }
 
+    .gavekort_btn:hover {
+        background-color: #b63f3f;
+    }
+
     #form_input {
         width: 20%;
         padding: 1%;
@@ -3220,6 +3256,10 @@ h3 {
         margin-bottom: 7%;
     }
 
+    .btn_naeste_annullér:hover {
+        background-color: #b63f3f;
+    }
+
     /* ---------------------- */
     /* --- Gå til booking --- */
     /* ---------------------- */
@@ -3243,6 +3283,10 @@ h3 {
 
     #btn_annullér {
         padding: 1% 2%;
+    }
+
+    #btn_annullér:hover {
+        background-color: #b63f3f;
     }
 
     #breadcrumbs_booking {
